@@ -1,0 +1,303 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\unity\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/unity/Resort/ResortVR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64020
+Successfully changed project path to: E:/unity/Resort/ResortVR
+E:/unity/Resort/ResortVR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 74.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path E:/unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/unity/Resort/ResortVR/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 590 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.14501.18003
+Initialize mono
+Mono path[0] = 'E:/unity/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'E:/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/unity/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001622 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 67.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 128.0 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3159.
+Total: 4.167000 ms (FindLiveObjects: 0.422400 ms CreateObjectMapping: 0.111100 ms MarkObjects: 2.290900 ms  DeleteObjects: 1.341300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Low Poly Bed Room Furniture PBR
+  artifactKey: Guid(ce4d5199960f11f4793cd903fa778956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR using Guid(ce4d5199960f11f4793cd903fa778956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb32bd79fbcd8a17584f97cd90edf1a') in 0.012167 seconds
+  Import took 0.017236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Glass 4 Pack FREE
+  artifactKey: Guid(82f5a958fc84af743bc4793e65283607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE using Guid(82f5a958fc84af743bc4793e65283607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57ca0787a2d52d27746f29756995f44') in 0.007308 seconds
+  Import took 0.011798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.190267 seconds.
+  path: Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 4 Gray.mat
+  artifactKey: Guid(1ec5fd87c2903684d8458e364a3ce487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 4 Gray.mat using Guid(1ec5fd87c2903684d8458e364a3ce487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a223682a142b9dde0bb86a07b75452') in 0.982826 seconds
+  Import took 0.988511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 5 Red Dark.mat
+  artifactKey: Guid(060b0b3ade81abe4ca613d7aba563c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 5 Red Dark.mat using Guid(060b0b3ade81abe4ca613d7aba563c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c356c45a76a402bce3c836be211b7de2') in 0.360019 seconds
+  Import took 0.365751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 5 Red Light.mat
+  artifactKey: Guid(84e2d1b60a7c60542a77c4f8aa729474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 5 Red Light.mat using Guid(84e2d1b60a7c60542a77c4f8aa729474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbf7ea473d776fc0ca018963d1daa06') in 0.050117 seconds
+  Import took 0.055198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 5 Red.mat
+  artifactKey: Guid(211b6e31e399b844d852183dbc59beea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 5 Red.mat using Guid(211b6e31e399b844d852183dbc59beea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed1985c227ccee66ad86c2fcfd7bca0') in 0.105660 seconds
+  Import took 0.110765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 4 Gray.mat
+  artifactKey: Guid(1ec5fd87c2903684d8458e364a3ce487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 4 Gray.mat using Guid(1ec5fd87c2903684d8458e364a3ce487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a223682a142b9dde0bb86a07b75452') in 0.038294 seconds
+  Import took 0.043904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 4 Yellow.mat
+  artifactKey: Guid(6c7afce52a16eea4ab6ac3c7919d85f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 4 Yellow.mat using Guid(6c7afce52a16eea4ab6ac3c7919d85f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c329cfbae9c8ec4fa9b42ab8800348') in 0.055418 seconds
+  Import took 0.061009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 422.973742 seconds.
+  path: Assets/Glass 4 Pack FREE/Textures/GLassEdgeShadowRed
+  artifactKey: Guid(f1b65272d3809014aa015fbef05d2011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Textures/GLassEdgeShadowRed using Guid(f1b65272d3809014aa015fbef05d2011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758ae1d16f32cfa0dee7ad793bf50e5b') in 0.045836 seconds
+  Import took 0.051144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.058952 seconds.
+  path: Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe
+  artifactKey: Guid(23d4bea7b9128e74fa229f383c46f49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe using Guid(23d4bea7b9128e74fa229f383c46f49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3367d316b1f8306376419c58cb1e43') in 0.008608 seconds
+  Import took 0.013076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.387156 seconds.
+  path: Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_diffuseOriginal.png
+  artifactKey: Guid(cf1a2147b66cbce4b81d15da482ad704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_diffuseOriginal.png using Guid(cf1a2147b66cbce4b81d15da482ad704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f899ea9632afc5266f4876427b4cea3') in 0.028745 seconds
+  Import took 0.034426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_height.png
+  artifactKey: Guid(0952f51b3e11c0d4dbd8ad371460ed54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_height.png using Guid(0952f51b3e11c0d4dbd8ad371460ed54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794c794a8a87e05f6ae19315038cd056') in 0.014252 seconds
+  Import took 0.019925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_metallic.png
+  artifactKey: Guid(749b2f023098d9449bcaeed19f10d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_metallic.png using Guid(749b2f023098d9449bcaeed19f10d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc546c9e08a30ce61fac73064fa43960') in 0.014111 seconds
+  Import took 0.019666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_normal.png
+  artifactKey: Guid(ce9f9485e2f9ac64586991868ffa1c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_normal.png using Guid(ce9f9485e2f9ac64586991868ffa1c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f597e4f79ea154caf835603185344a') in 0.019271 seconds
+  Import took 0.025225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5891.393164 seconds.
+  path: Assets/Yughues Free Palm Trees
+  artifactKey: Guid(29e75237402a5ac44bbc9d0ad7272892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yughues Free Palm Trees using Guid(29e75237402a5ac44bbc9d0ad7272892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416badf8157736cb9ee080b73001e71e') in 0.735345 seconds
+  Import took 3.756099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000725 seconds.
+  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualBendedOneSided.prefab
+  artifactKey: Guid(38291ecd3571d294ead9e9d15c345a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualBendedOneSided.prefab using Guid(38291ecd3571d294ead9e9d15c345a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1cebb5f65bb2b43fdab1f8fe8d1541') in 5.925913 seconds
+  Import took 5.954272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleStraightOneSided.prefab
+  artifactKey: Guid(20ddc844cd25b244f8005cba06955856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleStraightOneSided.prefab using Guid(20ddc844cd25b244f8005cba06955856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269bf8d13bd648ffe42ee5bb7d813daa') in 0.414166 seconds
+  Import took 0.440037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleBendedTwoSided.prefab
+  artifactKey: Guid(8d67c8074b567ec459905d65232f7154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleBendedTwoSided.prefab using Guid(8d67c8074b567ec459905d65232f7154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3ccdb3901a6300423fb4dd96343862') in 0.244806 seconds
+  Import took 0.301345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeTrioTwoSided.prefab
+  artifactKey: Guid(ecc2762d91d3584429565bde5fbede9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeTrioTwoSided.prefab using Guid(ecc2762d91d3584429565bde5fbede9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f947546e9de7cad591568f4dc235c082') in 0.261885 seconds
+  Import took 0.332837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleStraightTwoSided.prefab
+  artifactKey: Guid(03566e50eb2d319468a8720030b6bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleStraightTwoSided.prefab using Guid(03566e50eb2d319468a8720030b6bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3ee079c36c9c91003b077985b020aa') in 0.141130 seconds
+  Import took 0.161929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualBendedTwoSided.prefab
+  artifactKey: Guid(785bfd81c9fb838469851c06eb415f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualBendedTwoSided.prefab using Guid(785bfd81c9fb838469851c06eb415f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b1a4353ef78c70fae39ffd7ac306b4') in 0.247102 seconds
+  Import took 0.350151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleBendedOneSided.prefab
+  artifactKey: Guid(b22d7dcea44833b4ab41d64beb6e42c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleBendedOneSided.prefab using Guid(b22d7dcea44833b4ab41d64beb6e42c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b967110b6f65d235b61828560aa4f88') in 0.209139 seconds
+  Import took 0.345675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeTrioOneSided.prefab
+  artifactKey: Guid(2ed7cc7e3c944414d8f3fabb4d533018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeTrioOneSided.prefab using Guid(2ed7cc7e3c944414d8f3fabb4d533018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0025eebaa6db8faf2e1a200213dc4cb0') in 0.116203 seconds
+  Import took 0.173714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualStraightTwoSided.prefab
+  artifactKey: Guid(5e617e90ac28ce7488be6a63235b1f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualStraightTwoSided.prefab using Guid(5e617e90ac28ce7488be6a63235b1f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc58ad169c63051315c66633967721f') in 0.165515 seconds
+  Import took 0.171156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualStraightOneSided.prefab
+  artifactKey: Guid(b9a200fc20bd2b54392b467e9411a431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualStraightOneSided.prefab using Guid(b9a200fc20bd2b54392b467e9411a431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3646cb7ea88e0826b1b435a789a9796') in 0.160976 seconds
+  Import took 0.262691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1947.017625 seconds.
+  path: Assets/Glass 4 Pack FREE/Materials/GlassSolidStripe Blue.mat
+  artifactKey: Guid(2624aa4313249874c8405919c06fd6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Materials/GlassSolidStripe Blue.mat using Guid(2624aa4313249874c8405919c06fd6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5c7d59d03d0c8d75cac74d2ebc7624') in 1.678512 seconds
+  Import took 1.758111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Glass 4 Pack FREE/Materials/GlassSolidStripe.mat
+  artifactKey: Guid(7dd59b21f9070e8409253d05191519f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Materials/GlassSolidStripe.mat using Guid(7dd59b21f9070e8409253d05191519f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254225c21d09eed5e28274156eb6126f') in 0.103966 seconds
+  Import took 0.140867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3741.239404 seconds.
+  path: Assets/Glass 4 Pack FREE/Materials/GlassSolidStripe Black.mat
+  artifactKey: Guid(cf63d838420e88145b5141ec1ff4018a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass 4 Pack FREE/Materials/GlassSolidStripe Black.mat using Guid(cf63d838420e88145b5141ec1ff4018a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115dfc28a2d2c82dc96e5be2bcdf138d') in 0.117857 seconds
+  Import took 0.174213 seconds .
+

@@ -15,11 +15,11 @@ E:/unity/Resort/ResortVR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59376
+58458
 Successfully changed project path to: E:/unity/Resort/ResortVR
 E:/unity/Resort/ResortVR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1144.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path E:/unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,21 +35,206 @@ Initialize mono
 Mono path[0] = 'E:/unity/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'E:/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/unity/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.449871 seconds.
+Registered in 0.002013 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 62.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 75.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in 16.343 seconds
+- Completed reload, in  1.419 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.123671 seconds.
+Registered in 0.002685 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 78.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.408 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 128.0 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3159.
+Total: 4.627400 ms (FindLiveObjects: 0.362200 ms CreateObjectMapping: 0.141200 ms MarkObjects: 2.665300 ms  DeleteObjects: 1.456400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/HexDumbell.prefab
+  artifactKey: Guid(facc022907d0943adb45ee8d456e61a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/HexDumbell.prefab using Guid(facc022907d0943adb45ee8d456e61a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2b537ad0ee588c96643bb370393ee1') in 0.346808 seconds
+  Import took 0.367805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/EZCurlBar.prefab
+  artifactKey: Guid(a9daa8fbc13e1434e9a8464ccc9b61e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/EZCurlBar.prefab using Guid(a9daa8fbc13e1434e9a8464ccc9b61e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869687d6e8aba9c726735f343c787f1f') in 0.025335 seconds
+  Import took 0.048520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/Flatbench.prefab
+  artifactKey: Guid(b42c9125a6e104dc3b51813ad142cc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/Flatbench.prefab using Guid(b42c9125a6e104dc3b51813ad142cc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d9ac27092a8cd49bd0bded178055e0') in 0.025985 seconds
+  Import took 0.032021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/BodyBuilder Asset Pack/Textures
+  artifactKey: Guid(aa9126fbbe262404f99304234c20c3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Textures using Guid(aa9126fbbe262404f99304234c20c3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d7fef0df7b72abcf20716c6d6c24ff') in 0.021872 seconds
+  Import took 0.027407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/5Plate.prefab
+  artifactKey: Guid(06b21a62184f84f25b219aabb1af212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/5Plate.prefab using Guid(06b21a62184f84f25b219aabb1af212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88620f617f3a999e5a99720975d11b4') in 0.025694 seconds
+  Import took 0.047299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/LegPress.prefab
+  artifactKey: Guid(5cca210f39865425fb5212c6538cad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/LegPress.prefab using Guid(5cca210f39865425fb5212c6538cad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de613983fc8952e9a694b94fe4160030') in 0.026026 seconds
+  Import took 0.039061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/25CrossPlate.prefab
+  artifactKey: Guid(066221979a9b44065a4770b2b3c7f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/25CrossPlate.prefab using Guid(066221979a9b44065a4770b2b3c7f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defb7853bca76fe3c436e21ad0f03047') in 0.020042 seconds
+  Import took 0.025660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/SquatRack.prefab
+  artifactKey: Guid(9d723950635424d4582a271cb5aa01cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/SquatRack.prefab using Guid(9d723950635424d4582a271cb5aa01cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c100ed97fa095e46c9d584032e9dfba4') in 0.021052 seconds
+  Import took 0.030899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/StraightBar.prefab
+  artifactKey: Guid(5987e3a9b775641e4a058e13df4e7b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/StraightBar.prefab using Guid(5987e3a9b775641e4a058e13df4e7b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52115f41661ad11174f9d9dbfbe98ff') in 0.022738 seconds
+  Import took 0.030217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/RubberDumbell.prefab
+  artifactKey: Guid(ffde1e5de261c426bbfee2ff352f7205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/RubberDumbell.prefab using Guid(ffde1e5de261c426bbfee2ff352f7205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fa3527abfba367ec0944cea4705aa3') in 0.018273 seconds
+  Import took 0.024261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/PreacherCurlBench.prefab
+  artifactKey: Guid(169756ebbcdb3473fb4bf7b79fa1f14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/PreacherCurlBench.prefab using Guid(169756ebbcdb3473fb4bf7b79fa1f14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c632a5bfb62d4474d26be3b0e1993e8e') in 0.023941 seconds
+  Import took 0.041501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/BenchID.prefab
+  artifactKey: Guid(80a5ea9764443443395b466a9a9acfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/BenchID.prefab using Guid(80a5ea9764443443395b466a9a9acfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62eeaf7bd0079c74fcf3978a6244a4cb') in 0.021996 seconds
+  Import took 0.028954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/35CrossPlate.prefab
+  artifactKey: Guid(e58d57693bd4d4e878439fe19720c026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/35CrossPlate.prefab using Guid(e58d57693bd4d4e878439fe19720c026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c224423a2f9eab10a10b6b66e3cfbb3c') in 0.025156 seconds
+  Import took 0.032107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs
+  artifactKey: Guid(2c1407986dfd746e4b8047697e564281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs using Guid(2c1407986dfd746e4b8047697e564281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e5682531404cea7dbce0fa50e8ae16') in 0.021835 seconds
+  Import took 0.044403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/Dumbell Rack.prefab
+  artifactKey: Guid(cdb1ce3be6b324212979318b4419b923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/Dumbell Rack.prefab using Guid(cdb1ce3be6b324212979318b4419b923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b549eae8ebda3fda4ff7e59a1255892') in 0.021700 seconds
+  Import took 0.034055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/45CrossPlate.prefab
+  artifactKey: Guid(6ceb720bb64e446f6b1f73a0a2d9ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/45CrossPlate.prefab using Guid(6ceb720bb64e446f6b1f73a0a2d9ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6c3c3ffc73591564b94928e4d216ac') in 0.021533 seconds
+  Import took 0.027695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/PlateRack.prefab
+  artifactKey: Guid(3d5919e0d63634fa9a0b8e9c2e8065dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/PlateRack.prefab using Guid(3d5919e0d63634fa9a0b8e9c2e8065dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed78076c7e0124abfe5d7bf15ef3d5a') in 0.017039 seconds
+  Import took 0.033054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/BodyBuilder Asset Pack/Prefabs/10Plate.prefab
+  artifactKey: Guid(bd6d5806150974871b83d13e4d2cd8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack/Prefabs/10Plate.prefab using Guid(bd6d5806150974871b83d13e4d2cd8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f252eafcefecdeeea7dd280085146c5b') in 0.023517 seconds
+  Import took 0.030919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10215.133057 seconds.
+  path: Assets/Materials/Cool Grey.mat
+  artifactKey: Guid(1540d6377e14c5647a5cd4cc023ef7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cool Grey.mat using Guid(1540d6377e14c5647a5cd4cc023ef7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af9109139b0be506e2c1b8e35026fa1') in 0.171805 seconds
+  Import took 0.276989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16998.410832 seconds.
+  path: Assets/Materials/Cool Grey.mat
+  artifactKey: Guid(1540d6377e14c5647a5cd4cc023ef7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cool Grey.mat using Guid(1540d6377e14c5647a5cd4cc023ef7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f572034738eff6711621eb1041dc8b') in 0.062546 seconds
+  Import took 0.107080 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
