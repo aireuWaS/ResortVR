@@ -15,11 +15,11 @@ E:/unity/Resort/ResortVR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64020
+53539
 Successfully changed project path to: E:/unity/Resort/ResortVR
 E:/unity/Resort/ResortVR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 74.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path E:/unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,269 +35,2230 @@ Initialize mono
 Mono path[0] = 'E:/unity/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'E:/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/unity/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001622 seconds.
+Registered in 0.001455 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 68.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.255 seconds
+- Completed reload, in  1.205 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002669 seconds.
+Registered in 0.006854 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 67.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: E:\unity\Resort\ResortVR\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:E:\unity\2020.3.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.232 seconds
+- Completed reload, in  1.252 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2739 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 128.0 MB.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.7 MB.
+System memory in use after: 147.3 MB.
 
-Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3159.
-Total: 4.167000 ms (FindLiveObjects: 0.422400 ms CreateObjectMapping: 0.111100 ms MarkObjects: 2.290900 ms  DeleteObjects: 1.341300 ms)
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3527.
+Total: 4.826200 ms (FindLiveObjects: 0.404200 ms CreateObjectMapping: 0.089100 ms MarkObjects: 2.868800 ms  DeleteObjects: 1.462500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Low Poly Bed Room Furniture PBR
-  artifactKey: Guid(ce4d5199960f11f4793cd903fa778956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Bed Room Furniture PBR using Guid(ce4d5199960f11f4793cd903fa778956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb32bd79fbcd8a17584f97cd90edf1a') in 0.012167 seconds
-  Import took 0.017236 seconds .
+  path: Assets/Materials/gravel01.mat
+  artifactKey: Guid(d9f344b0f37493647a486e6a6ec57390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/gravel01.mat using Guid(d9f344b0f37493647a486e6a6ec57390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b70fb5020c0ad3e07f1f2e247196d45') in 0.297714 seconds
+  Import took 0.303394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.097039 seconds.
+  path: Assets/Materials/floor01b.mat
+  artifactKey: Guid(485ee265cf06dab498aed65ddb8a06e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/floor01b.mat using Guid(485ee265cf06dab498aed65ddb8a06e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828dd155e9ec52d8f6c97c17e7ddd3f4') in 0.017921 seconds
+  Import took 0.023483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Materials/gravel01.mat
+  artifactKey: Guid(d9f344b0f37493647a486e6a6ec57390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/gravel01.mat using Guid(d9f344b0f37493647a486e6a6ec57390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef9e3b8b1ada649b3c71c84d28fa25b') in 0.016844 seconds
+  Import took 0.022309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5815.842522 seconds.
+  path: Assets/kitchen props/prefabs
+  artifactKey: Guid(85cc02b66614c5f4d8d64ca264c8ea67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/prefabs using Guid(85cc02b66614c5f4d8d64ca264c8ea67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aa3c85005f7dd9337aac52334188be') in 0.012040 seconds
+  Import took 0.084772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.009939 seconds.
+  path: Assets/kitchen props/prefabs/bowl-stack.prefab
+  artifactKey: Guid(8e763244a885c464895bf17d3f12fde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/prefabs/bowl-stack.prefab using Guid(8e763244a885c464895bf17d3f12fde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6102cf345c7d24390c76b64621c738b') in 0.695335 seconds
+  Import took 0.701985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/kitchen props/prefabs/plate-stack-large.prefab
+  artifactKey: Guid(d27f67e930be4c64db19d14ca6201d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/prefabs/plate-stack-large.prefab using Guid(d27f67e930be4c64db19d14ca6201d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c452812d28095a5b2a3f39d545dd6d31') in 0.052409 seconds
+  Import took 0.058466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/kitchen props/prefabs/dish-rack-full.prefab
+  artifactKey: Guid(dcd0587b065a66040bf53ce3ab8edf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/prefabs/dish-rack-full.prefab using Guid(dcd0587b065a66040bf53ce3ab8edf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35a436caafd063ca63a3b0efd9efde5') in 0.086270 seconds
+  Import took 0.095361 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000276 seconds.
-  path: Assets/Glass 4 Pack FREE
-  artifactKey: Guid(82f5a958fc84af743bc4793e65283607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE using Guid(82f5a958fc84af743bc4793e65283607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57ca0787a2d52d27746f29756995f44') in 0.007308 seconds
-  Import took 0.011798 seconds .
+  path: Assets/kitchen props/prefabs/plate-stack-small.prefab
+  artifactKey: Guid(2b2f272f9ab448a429a68c3a3308d4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/prefabs/plate-stack-small.prefab using Guid(2b2f272f9ab448a429a68c3a3308d4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73ba49b0a5cfd1a1739fd74aba693d3') in 0.025197 seconds
+  Import took 0.031306 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.190267 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 4 Gray.mat
-  artifactKey: Guid(1ec5fd87c2903684d8458e364a3ce487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 4 Gray.mat using Guid(1ec5fd87c2903684d8458e364a3ce487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a223682a142b9dde0bb86a07b75452') in 0.982826 seconds
-  Import took 0.988511 seconds .
+  Time since last request: 0.379440 seconds.
+  path: Assets/kitchen props/prefabs/dish-rack-full.prefab
+  artifactKey: Guid(dcd0587b065a66040bf53ce3ab8edf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/prefabs/dish-rack-full.prefab using Guid(dcd0587b065a66040bf53ce3ab8edf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35a436caafd063ca63a3b0efd9efde5') in 0.055250 seconds
+  Import took 0.063879 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 5 Red Dark.mat
-  artifactKey: Guid(060b0b3ade81abe4ca613d7aba563c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 5 Red Dark.mat using Guid(060b0b3ade81abe4ca613d7aba563c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c356c45a76a402bce3c836be211b7de2') in 0.360019 seconds
-  Import took 0.365751 seconds .
+  Time since last request: 4.362071 seconds.
+  path: Assets/kitchen props/materials
+  artifactKey: Guid(2959eb34c85885d4ab97232d6428fae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/materials using Guid(2959eb34c85885d4ab97232d6428fae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a2da4eec6efb7f4e87b38d50bba0c0') in 0.007459 seconds
+  Import took 0.012993 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 5 Red Light.mat
-  artifactKey: Guid(84e2d1b60a7c60542a77c4f8aa729474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 5 Red Light.mat using Guid(84e2d1b60a7c60542a77c4f8aa729474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbf7ea473d776fc0ca018963d1daa06') in 0.050117 seconds
-  Import took 0.055198 seconds .
+  Time since last request: 1.180824 seconds.
+  path: Assets/kitchen props/models
+  artifactKey: Guid(4874504f6d96500429ad837bdfe2281e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/models using Guid(4874504f6d96500429ad837bdfe2281e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef4064d2c8c0528fd77e95ffbcd1722') in 0.023119 seconds
+  Import took 0.028486 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 5 Red.mat
-  artifactKey: Guid(211b6e31e399b844d852183dbc59beea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 5 Red.mat using Guid(211b6e31e399b844d852183dbc59beea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed1985c227ccee66ad86c2fcfd7bca0') in 0.105660 seconds
-  Import took 0.110765 seconds .
+  Time since last request: 0.031305 seconds.
+  path: Assets/kitchen props/models/bowl.fbx
+  artifactKey: Guid(d8c8787ffb0f3b5468fd65d51731b7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/models/bowl.fbx using Guid(d8c8787ffb0f3b5468fd65d51731b7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f4e38693c9a0a4339d1ff4927883d8') in 0.398031 seconds
+  Import took 0.404879 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000212 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 4 Gray.mat
-  artifactKey: Guid(1ec5fd87c2903684d8458e364a3ce487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 4 Gray.mat using Guid(1ec5fd87c2903684d8458e364a3ce487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a223682a142b9dde0bb86a07b75452') in 0.038294 seconds
-  Import took 0.043904 seconds .
+  path: Assets/kitchen props/models/stool.fbx
+  artifactKey: Guid(a9a2fe8bb1566d04382f04d14066f8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/models/stool.fbx using Guid(a9a2fe8bb1566d04382f04d14066f8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6620aebeda8c294628408f7f3e68975f') in 0.043216 seconds
+  Import took 0.049322 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 4 Yellow.mat
-  artifactKey: Guid(6c7afce52a16eea4ab6ac3c7919d85f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/GlassEdgeShadow 4 Yellow.mat using Guid(6c7afce52a16eea4ab6ac3c7919d85f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c329cfbae9c8ec4fa9b42ab8800348') in 0.055418 seconds
-  Import took 0.061009 seconds .
+  Time since last request: 0.000202 seconds.
+  path: Assets/kitchen props/models/plate.fbx
+  artifactKey: Guid(6c24037ad5bed7e428ade751ad02702c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/models/plate.fbx using Guid(6c24037ad5bed7e428ade751ad02702c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2354e8d7d81621ff68c169d1853a5ba') in 0.037243 seconds
+  Import took 0.043633 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 422.973742 seconds.
-  path: Assets/Glass 4 Pack FREE/Textures/GLassEdgeShadowRed
-  artifactKey: Guid(f1b65272d3809014aa015fbef05d2011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Textures/GLassEdgeShadowRed using Guid(f1b65272d3809014aa015fbef05d2011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758ae1d16f32cfa0dee7ad793bf50e5b') in 0.045836 seconds
-  Import took 0.051144 seconds .
+  Time since last request: 0.000255 seconds.
+  path: Assets/kitchen props/models/toaster.fbx
+  artifactKey: Guid(2faafd7c39cf18b4d83d3d729c4f9a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/models/toaster.fbx using Guid(2faafd7c39cf18b4d83d3d729c4f9a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcbeafc353e3064ed0e2cbcd52ee82e') in 0.031774 seconds
+  Import took 0.038130 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.058952 seconds.
-  path: Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe
-  artifactKey: Guid(23d4bea7b9128e74fa229f383c46f49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe using Guid(23d4bea7b9128e74fa229f383c46f49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3367d316b1f8306376419c58cb1e43') in 0.008608 seconds
-  Import took 0.013076 seconds .
+  Time since last request: 0.000230 seconds.
+  path: Assets/kitchen props/models/coloured-mugs.fbx
+  artifactKey: Guid(bc8c29201cb724446a7429fabead425c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/models/coloured-mugs.fbx using Guid(bc8c29201cb724446a7429fabead425c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5e65793bb99a2bc1f32b79bc14314e') in 0.058586 seconds
+  Import took 0.064391 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.387156 seconds.
-  path: Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_diffuseOriginal.png
-  artifactKey: Guid(cf1a2147b66cbce4b81d15da482ad704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_diffuseOriginal.png using Guid(cf1a2147b66cbce4b81d15da482ad704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f899ea9632afc5266f4876427b4cea3') in 0.028745 seconds
-  Import took 0.034426 seconds .
+  Time since last request: 0.000208 seconds.
+  path: Assets/kitchen props/models/knife1.fbx
+  artifactKey: Guid(d2e2a853635ce0541a57bf54bb3b3249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/models/knife1.fbx using Guid(d2e2a853635ce0541a57bf54bb3b3249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215585b4b9e1f7e9ccddb8ae5f0bbe81') in 0.028811 seconds
+  Import took 0.034956 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_height.png
-  artifactKey: Guid(0952f51b3e11c0d4dbd8ad371460ed54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_height.png using Guid(0952f51b3e11c0d4dbd8ad371460ed54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794c794a8a87e05f6ae19315038cd056') in 0.014252 seconds
-  Import took 0.019925 seconds .
+  Time since last request: 0.000287 seconds.
+  path: Assets/kitchen props/models/breakfast-bar-support.fbx
+  artifactKey: Guid(f662251454558504b9d7d576219f8a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/models/breakfast-bar-support.fbx using Guid(f662251454558504b9d7d576219f8a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445077401f52446c621100b0cd7832d7') in 0.029030 seconds
+  Import took 0.036075 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_metallic.png
-  artifactKey: Guid(749b2f023098d9449bcaeed19f10d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_metallic.png using Guid(749b2f023098d9449bcaeed19f10d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc546c9e08a30ce61fac73064fa43960') in 0.014111 seconds
-  Import took 0.019666 seconds .
+  Time since last request: 0.000343 seconds.
+  path: Assets/kitchen props/models/dish-rack.fbx
+  artifactKey: Guid(dbfd5a0d3687f5943866e159c822d788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/models/dish-rack.fbx using Guid(dbfd5a0d3687f5943866e159c822d788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e96737de891e2a67a6644bb3301681') in 0.029222 seconds
+  Import took 0.035498 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_normal.png
-  artifactKey: Guid(ce9f9485e2f9ac64586991868ffa1c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Textures/GlassSolidStripe/GlassSolidStripe_normal.png using Guid(ce9f9485e2f9ac64586991868ffa1c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f597e4f79ea154caf835603185344a') in 0.019271 seconds
-  Import took 0.025225 seconds .
+  Time since last request: 0.000240 seconds.
+  path: Assets/kitchen props/models/knife2.fbx
+  artifactKey: Guid(84382d79f96bc3449806233960e627d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/models/knife2.fbx using Guid(84382d79f96bc3449806233960e627d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea1b194457c5e06ae0387f532cb532e') in 0.027773 seconds
+  Import took 0.033412 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5891.393164 seconds.
-  path: Assets/Yughues Free Palm Trees
-  artifactKey: Guid(29e75237402a5ac44bbc9d0ad7272892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yughues Free Palm Trees using Guid(29e75237402a5ac44bbc9d0ad7272892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416badf8157736cb9ee080b73001e71e') in 0.735345 seconds
-  Import took 3.756099 seconds .
+  Time since last request: 0.000199 seconds.
+  path: Assets/kitchen props/models/china-plate.fbx
+  artifactKey: Guid(817905816aef5fb48a1e7cbf50582155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/models/china-plate.fbx using Guid(817905816aef5fb48a1e7cbf50582155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa81ab1bbfcbabaad93b2ba820b415dc') in 0.056738 seconds
+  Import took 0.062888 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000725 seconds.
-  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualBendedOneSided.prefab
-  artifactKey: Guid(38291ecd3571d294ead9e9d15c345a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualBendedOneSided.prefab using Guid(38291ecd3571d294ead9e9d15c345a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1cebb5f65bb2b43fdab1f8fe8d1541') in 5.925913 seconds
-  Import took 5.954272 seconds .
+  Time since last request: 0.000335 seconds.
+  path: Assets/kitchen props/models/counter1a.fbx
+  artifactKey: Guid(fd11bed7945d6f64fa54fd364acdd741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/models/counter1a.fbx using Guid(fd11bed7945d6f64fa54fd364acdd741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d83624a3557833ec1c68757c75b0abd') in 0.026629 seconds
+  Import took 0.032418 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleStraightOneSided.prefab
-  artifactKey: Guid(20ddc844cd25b244f8005cba06955856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleStraightOneSided.prefab using Guid(20ddc844cd25b244f8005cba06955856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269bf8d13bd648ffe42ee5bb7d813daa') in 0.414166 seconds
-  Import took 0.440037 seconds .
+  Time since last request: 0.000214 seconds.
+  path: Assets/kitchen props/models/mug.fbx
+  artifactKey: Guid(4e6db54670ea84d4298ec673c60ca3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props/models/mug.fbx using Guid(4e6db54670ea84d4298ec673c60ca3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61f88d0f28c5894688dedaa49a59e80') in 0.042205 seconds
+  Import took 0.048177 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleBendedTwoSided.prefab
-  artifactKey: Guid(8d67c8074b567ec459905d65232f7154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleBendedTwoSided.prefab using Guid(8d67c8074b567ec459905d65232f7154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3ccdb3901a6300423fb4dd96343862') in 0.244806 seconds
-  Import took 0.301345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeTrioTwoSided.prefab
-  artifactKey: Guid(ecc2762d91d3584429565bde5fbede9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeTrioTwoSided.prefab using Guid(ecc2762d91d3584429565bde5fbede9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f947546e9de7cad591568f4dc235c082') in 0.261885 seconds
-  Import took 0.332837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleStraightTwoSided.prefab
-  artifactKey: Guid(03566e50eb2d319468a8720030b6bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleStraightTwoSided.prefab using Guid(03566e50eb2d319468a8720030b6bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3ee079c36c9c91003b077985b020aa') in 0.141130 seconds
-  Import took 0.161929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualBendedTwoSided.prefab
-  artifactKey: Guid(785bfd81c9fb838469851c06eb415f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualBendedTwoSided.prefab using Guid(785bfd81c9fb838469851c06eb415f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b1a4353ef78c70fae39ffd7ac306b4') in 0.247102 seconds
-  Import took 0.350151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleBendedOneSided.prefab
-  artifactKey: Guid(b22d7dcea44833b4ab41d64beb6e42c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeSingleBendedOneSided.prefab using Guid(b22d7dcea44833b4ab41d64beb6e42c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b967110b6f65d235b61828560aa4f88') in 0.209139 seconds
-  Import took 0.345675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeTrioOneSided.prefab
-  artifactKey: Guid(2ed7cc7e3c944414d8f3fabb4d533018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeTrioOneSided.prefab using Guid(2ed7cc7e3c944414d8f3fabb4d533018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0025eebaa6db8faf2e1a200213dc4cb0') in 0.116203 seconds
-  Import took 0.173714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualStraightTwoSided.prefab
-  artifactKey: Guid(5e617e90ac28ce7488be6a63235b1f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualStraightTwoSided.prefab using Guid(5e617e90ac28ce7488be6a63235b1f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc58ad169c63051315c66633967721f') in 0.165515 seconds
-  Import took 0.171156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualStraightOneSided.prefab
-  artifactKey: Guid(b9a200fc20bd2b54392b467e9411a431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yughues Free Palm Trees/Prefabs/PalmTreeDualStraightOneSided.prefab using Guid(b9a200fc20bd2b54392b467e9411a431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3646cb7ea88e0826b1b435a789a9796') in 0.160976 seconds
-  Import took 0.262691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1947.017625 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/GlassSolidStripe Blue.mat
-  artifactKey: Guid(2624aa4313249874c8405919c06fd6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/GlassSolidStripe Blue.mat using Guid(2624aa4313249874c8405919c06fd6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5c7d59d03d0c8d75cac74d2ebc7624') in 1.678512 seconds
-  Import took 1.758111 seconds .
+  Time since last request: 549.733006 seconds.
+  path: Assets/Images/beach01a.png
+  artifactKey: Guid(9dfef6c527b098141b07be9700c1ff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/beach01a.png using Guid(9dfef6c527b098141b07be9700c1ff45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516badc8c104fd338b27190fd77a25d5') in 0.601486 seconds
+  Import took 0.608970 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000228 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/GlassSolidStripe.mat
-  artifactKey: Guid(7dd59b21f9070e8409253d05191519f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/GlassSolidStripe.mat using Guid(7dd59b21f9070e8409253d05191519f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254225c21d09eed5e28274156eb6126f') in 0.103966 seconds
-  Import took 0.140867 seconds .
+  path: Assets/Images/gravel01.png
+  artifactKey: Guid(98eb8974b7ead404aa35dffcbdbf7a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/gravel01.png using Guid(98eb8974b7ead404aa35dffcbdbf7a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47c88e5191e38431258ab31a92a63da') in 0.017383 seconds
+  Import took 0.026268 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3741.239404 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/GlassSolidStripe Black.mat
-  artifactKey: Guid(cf63d838420e88145b5141ec1ff4018a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/GlassSolidStripe Black.mat using Guid(cf63d838420e88145b5141ec1ff4018a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115dfc28a2d2c82dc96e5be2bcdf138d') in 0.117857 seconds
-  Import took 0.174213 seconds .
+  Time since last request: 0.000307 seconds.
+  path: Assets/Images/floor01b.png
+  artifactKey: Guid(a21f00e74d133b64a85087f559de11a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/floor01b.png using Guid(a21f00e74d133b64a85087f559de11a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd16705741df9f45b18d0078c3d85812') in 0.017386 seconds
+  Import took 0.026659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2690.260846 seconds.
+  path: Assets/Materials/floor01b.mat
+  artifactKey: Guid(485ee265cf06dab498aed65ddb8a06e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/floor01b.mat using Guid(485ee265cf06dab498aed65ddb8a06e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9ebe8d8f12876299f48839fc924b47') in 0.067696 seconds
+  Import took 0.073824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Materials/gravel01.mat
+  artifactKey: Guid(d9f344b0f37493647a486e6a6ec57390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/gravel01.mat using Guid(d9f344b0f37493647a486e6a6ec57390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f870c7f16133632c50431ca9bae0450') in 0.014982 seconds
+  Import took 0.020585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1128.986551 seconds.
+  path: Assets/SteamVR_Input/SteamVR_Actions.asmdef
+  artifactKey: Guid(19941bd846d46f943b2a912c4cb6bb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR_Input/SteamVR_Actions.asmdef using Guid(19941bd846d46f943b2a912c4cb6bb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e90ee66a5f950178cb0714b97a5508') in 0.025877 seconds
+  Import took 0.031341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.423896 seconds.
+  path: Assets/Materials/beach01a 1.mat
+  artifactKey: Guid(b4841141d7e024a408ae7c0ed74c153e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/beach01a 1.mat using Guid(b4841141d7e024a408ae7c0ed74c153e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89622a731d3c3393654152089a42a35d') in 0.017328 seconds
+  Import took 0.023241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.019961 seconds.
+  path: Assets/Materials/beach02a.mat
+  artifactKey: Guid(640f55cabcfbe1640ac1a92566d82080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/beach02a.mat using Guid(640f55cabcfbe1640ac1a92566d82080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1526aa6737a600018de8b829fcae30') in 0.013667 seconds
+  Import took 0.019153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1301.313362 seconds.
+  path: Assets/XR
+  artifactKey: Guid(891b92d5ebf2bb3488ad486b95e65219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(891b92d5ebf2bb3488ad486b95e65219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f9ab441938d69bc1fbd3859512572f') in 0.008646 seconds
+  Import took 0.014734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.958642 seconds.
+  path: Assets/kitchen props
+  artifactKey: Guid(c127f3844b0811542b0fad40be7294b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen props using Guid(c127f3844b0811542b0fad40be7294b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10997f75fe2f7227c7ad0b957d0870da') in 0.008985 seconds
+  Import took 0.014382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.076863 seconds.
+  path: Assets/BrokenVector
+  artifactKey: Guid(b43cb67750f0b1247bd5bcb051d88b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector using Guid(b43cb67750f0b1247bd5bcb051d88b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff7db72127761952a9ae6932bd95c10') in 0.026741 seconds
+  Import took 0.032189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.536462 seconds.
+  path: Assets/BrokenVector/LowPolyShaders
+  artifactKey: Guid(c529e5f80a12ab14fb7cfa2f700abe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyShaders using Guid(c529e5f80a12ab14fb7cfa2f700abe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece94988f65f1a6aa54470fb98d6024f') in 0.007547 seconds
+  Import took 0.013729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.740514 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack
+  artifactKey: Guid(32d2a2c3e91e5044698359eac5ba9f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack using Guid(32d2a2c3e91e5044698359eac5ba9f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858df5dc1bc06df6bdd32588b96b43a8') in 0.008358 seconds
+  Import took 0.014113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.278245 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials
+  artifactKey: Guid(e04ab1ea92ba1a44c8f3c9afbe3d8263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials using Guid(e04ab1ea92ba1a44c8f3c9afbe3d8263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ad9c67e02c58338fd6974805052ea1') in 0.008332 seconds
+  Import took 0.013846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069520 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Blue.mat
+  artifactKey: Guid(b0cfeb8b980746945a0afedcf4ec2880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Blue.mat using Guid(b0cfeb8b980746945a0afedcf4ec2880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f02222e3e23ba5b708c3f635281aa56') in 0.017487 seconds
+  Import took 0.024022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Purple.mat
+  artifactKey: Guid(19f1aca6176a7614f899e6d504abc147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Purple.mat using Guid(19f1aca6176a7614f899e6d504abc147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f7c8694bd529c5e8aefa553ced63e9') in 0.016606 seconds
+  Import took 0.023258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Unlit_Blue.mat
+  artifactKey: Guid(0be69c02f81c03846bb3d5d7b79e19a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Unlit_Blue.mat using Guid(0be69c02f81c03846bb3d5d7b79e19a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f57c7106ac9773b37b94f55c240fa4') in 0.015076 seconds
+  Import took 0.023030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Unlit_Purple.mat
+  artifactKey: Guid(35edf0cdeb6723141b37babb56b2ce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Unlit_Purple.mat using Guid(35edf0cdeb6723141b37babb56b2ce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dea6e135333c35f1bb1f6b4457b59dc') in 0.012893 seconds
+  Import took 0.018266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Green.mat
+  artifactKey: Guid(72b60f1b3e5a4b94f88154af53968158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Green.mat using Guid(72b60f1b3e5a4b94f88154af53968158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533262e338578e8fa5dc64370e847086') in 0.016561 seconds
+  Import took 0.022607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Purple.mat
+  artifactKey: Guid(17b827be00b46de49b67f1a66e3c874a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Purple.mat using Guid(17b827be00b46de49b67f1a66e3c874a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56407f057d08c35b8e11a84ed55728d2') in 0.015700 seconds
+  Import took 0.022541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Red.mat
+  artifactKey: Guid(c7d4d55229668c54c9ce656beb9a14a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Red.mat using Guid(c7d4d55229668c54c9ce656beb9a14a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a32d5d5f2506f316d736a80f808e95') in 0.016749 seconds
+  Import took 0.022562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Yellow.mat
+  artifactKey: Guid(42b72ec56c0ab8047879964b928f6fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Yellow.mat using Guid(42b72ec56c0ab8047879964b928f6fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02202d53057e09a34708b9979582dfa7') in 0.015439 seconds
+  Import took 0.021365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Red.mat
+  artifactKey: Guid(c7d4d55229668c54c9ce656beb9a14a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Red.mat using Guid(c7d4d55229668c54c9ce656beb9a14a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a32d5d5f2506f316d736a80f808e95') in 0.010480 seconds
+  Import took 0.017478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Green.mat
+  artifactKey: Guid(5aca6693610276c4190f5740d1183bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Green.mat using Guid(5aca6693610276c4190f5740d1183bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302604a189da4151b25fb38582f03eab') in 0.014677 seconds
+  Import took 0.021626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Unlit_Red.mat
+  artifactKey: Guid(c361b9c61d93b424c972e2699e35553d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Unlit_Red.mat using Guid(c361b9c61d93b424c972e2699e35553d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f65b22b4c3774b60335a7f2acd26f0') in 0.013970 seconds
+  Import took 0.020697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Unlit_Green.mat
+  artifactKey: Guid(2c2fa0db6f0ab4e49a518ffedd66cc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Unlit_Green.mat using Guid(2c2fa0db6f0ab4e49a518ffedd66cc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eecc55a2ad5d92a92f9b59864a8e7ae') in 0.014141 seconds
+  Import took 0.020208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Yellow.mat
+  artifactKey: Guid(527353d9e6270254680287bb2593d299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Diffuse_Yellow.mat using Guid(527353d9e6270254680287bb2593d299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2776724a816ed86dbbd901788ba6c201') in 0.014432 seconds
+  Import took 0.020956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Blue.mat
+  artifactKey: Guid(2baa316d3d6d44d44b49de38958c3fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Blue.mat using Guid(2baa316d3d6d44d44b49de38958c3fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83b5110af6906f89b53650efe700348') in 0.015933 seconds
+  Import took 0.022748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Unlit_Yellow.mat
+  artifactKey: Guid(ba0a51ddd31b75443b518751ff4cb263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Unlit_Yellow.mat using Guid(ba0a51ddd31b75443b518751ff4cb263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f01ebcf870fc119085bcbd6fc1b5af') in 0.012838 seconds
+  Import took 0.018732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Blue.mat
+  artifactKey: Guid(2baa316d3d6d44d44b49de38958c3fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Blue.mat using Guid(2baa316d3d6d44d44b49de38958c3fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83b5110af6906f89b53650efe700348') in 0.010708 seconds
+  Import took 0.018098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Red.mat
+  artifactKey: Guid(974e4860cba7dbd478b90327dbc32482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Materials/Storage_Metal_Red.mat using Guid(974e4860cba7dbd478b90327dbc32482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f22575ed899c350a0f585c613a0f38') in 0.013476 seconds
+  Import took 0.019552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.031029 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Palettes
+  artifactKey: Guid(26e9205149f07514fa707d7543e5fd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Palettes using Guid(26e9205149f07514fa707d7543e5fd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6446421fefb14eeef0fe9ace87681207') in 0.008945 seconds
+  Import took 0.014098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051066 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Blue.png
+  artifactKey: Guid(f567ed64624c60444914722fbe1cee38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Blue.png using Guid(f567ed64624c60444914722fbe1cee38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85bb2d18d3361ecd3345cb2e51f5175') in 0.009944 seconds
+  Import took 0.015420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Yellow.png
+  artifactKey: Guid(5a69156d521450d41b42825fbceaa971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Yellow.png using Guid(5a69156d521450d41b42825fbceaa971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d55fc7618b687955882c4e3d0d6e262') in 0.009757 seconds
+  Import took 0.014913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Red.png
+  artifactKey: Guid(f0463186e997f36448fb3d42cf65bdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Red.png using Guid(f0463186e997f36448fb3d42cf65bdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce00d49988f5439751c7d88dce2c98a') in 0.011212 seconds
+  Import took 0.018631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Green.png
+  artifactKey: Guid(a36f7aa6d9d45e14c8a942398aa6f468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Green.png using Guid(a36f7aa6d9d45e14c8a942398aa6f468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42561ae5cd359218775b653f320aa2b') in 0.009651 seconds
+  Import took 0.015111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Purple.png
+  artifactKey: Guid(2f31cca53255f564c986254821a8dd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Purple.png using Guid(2f31cca53255f564c986254821a8dd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c57586a4a1843978caf0e15e53a2a52') in 0.011738 seconds
+  Import took 0.017246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004245 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Purple.png
+  artifactKey: Guid(2f31cca53255f564c986254821a8dd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Palettes/Palette_Purple.png using Guid(2f31cca53255f564c986254821a8dd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c57586a4a1843978caf0e15e53a2a52') in 0.005242 seconds
+  Import took 0.011614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.207035 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs
+  artifactKey: Guid(b9bb9fb95e7904d429606f4dcd653b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs using Guid(b9bb9fb95e7904d429606f4dcd653b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbbe580082b6d77686a020ef5298f12') in 0.018456 seconds
+  Import took 0.023831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs
+  artifactKey: Guid(b9bb9fb95e7904d429606f4dcd653b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs using Guid(b9bb9fb95e7904d429606f4dcd653b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbbe580082b6d77686a020ef5298f12') in 0.001911 seconds
+  Import took 0.006927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057860 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Amp_Rack_01.prefab
+  artifactKey: Guid(705d933b89ad2d94a8a505a85bc0a4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Amp_Rack_01.prefab using Guid(705d933b89ad2d94a8a505a85bc0a4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f428bca34b634ddd55cdfde888310ea5') in 0.015994 seconds
+  Import took 0.021543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Electric_Box_02.prefab
+  artifactKey: Guid(1f0bf28e3bca88e43ad25cf888971634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Electric_Box_02.prefab using Guid(1f0bf28e3bca88e43ad25cf888971634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c539d56f50d5ada7faa93b1147cc637') in 0.014529 seconds
+  Import took 0.020560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_03_Red.prefab
+  artifactKey: Guid(016291d4f25026846b760aa140d85aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_03_Red.prefab using Guid(016291d4f25026846b760aa140d85aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68622c2c4077808648dec22c9cf11fc5') in 0.026042 seconds
+  Import took 0.031884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Electric_Box_01.prefab
+  artifactKey: Guid(a578316b64ef8fa4ea35895600971894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Electric_Box_01.prefab using Guid(a578316b64ef8fa4ea35895600971894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500104dd5ecff32e7e596ac45ef82019') in 0.015783 seconds
+  Import took 0.022977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_01_Red.prefab
+  artifactKey: Guid(1cab31799405bf54a952bc3881c055fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_01_Red.prefab using Guid(1cab31799405bf54a952bc3881c055fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ce35b33fc9ccf084734e6d45585f76') in 0.014869 seconds
+  Import took 0.021457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_02_Green.prefab
+  artifactKey: Guid(c134220877dc86841963c96f50f810c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_02_Green.prefab using Guid(c134220877dc86841963c96f50f810c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36641e6f44db5fcd7f34195c9c958c3') in 0.015731 seconds
+  Import took 0.021793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Blue.prefab
+  artifactKey: Guid(2f3eeb9b037e853489950df7ec0c4eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Blue.prefab using Guid(2f3eeb9b037e853489950df7ec0c4eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4947ccc32eac3eaf7612e992b103e3') in 0.018644 seconds
+  Import took 0.026646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Blue.prefab
+  artifactKey: Guid(e90e064552961bb478f9d1b92578b170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Blue.prefab using Guid(e90e064552961bb478f9d1b92578b170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09f4a5ba8379dae2ae62eef00380219') in 0.017397 seconds
+  Import took 0.023546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Purple.prefab
+  artifactKey: Guid(f502427f83e10e247a87212504fcc298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Purple.prefab using Guid(f502427f83e10e247a87212504fcc298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6612f0bd41089211685442d5ceb6e61d') in 0.017966 seconds
+  Import took 0.024048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_01_Red.prefab
+  artifactKey: Guid(68e540a3efa72554cad20028e9747fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_01_Red.prefab using Guid(68e540a3efa72554cad20028e9747fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c64842e9c156193d975f1483f19be9') in 0.015808 seconds
+  Import took 0.022507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_01_Blue.prefab
+  artifactKey: Guid(049a31b928db0684c80f2fa76838f5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_01_Blue.prefab using Guid(049a31b928db0684c80f2fa76838f5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933ba769526bacd061ea43fe124e49fd') in 0.016761 seconds
+  Import took 0.022569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_01_Yellow.prefab
+  artifactKey: Guid(303a8118f0602de4d848c9d7b7e74129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_01_Yellow.prefab using Guid(303a8118f0602de4d848c9d7b7e74129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315341c4fe7f862904673e1678bb4d52') in 0.016796 seconds
+  Import took 0.023603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Green.prefab
+  artifactKey: Guid(548e7859459572b49b76cdb658d13bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Green.prefab using Guid(548e7859459572b49b76cdb658d13bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518743e4481a9eda7ebf982228c49242') in 0.015738 seconds
+  Import took 0.022369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_03_Blue.prefab
+  artifactKey: Guid(53dd11272dbdda346a1936ca914cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_03_Blue.prefab using Guid(53dd11272dbdda346a1936ca914cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab6f03b75feb973335b43c0ca4a7050') in 0.015755 seconds
+  Import took 0.021867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Yellow.prefab
+  artifactKey: Guid(1176569b9499a164d81752415b902a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Yellow.prefab using Guid(1176569b9499a164d81752415b902a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6366ac7b613be5426aed377ed3e7e50f') in 0.014875 seconds
+  Import took 0.020742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_01_Blue.prefab
+  artifactKey: Guid(53feeaf808cce28429d051dcbd6642ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_01_Blue.prefab using Guid(53feeaf808cce28429d051dcbd6642ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad8db4111aa00b1a1afd2fdfdb11788') in 0.014943 seconds
+  Import took 0.021603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_01_Green.prefab
+  artifactKey: Guid(52286bfe87fb66749a3c50bd33f61eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_01_Green.prefab using Guid(52286bfe87fb66749a3c50bd33f61eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a36f254dd5545225eb98143a8bb41e0') in 0.017509 seconds
+  Import took 0.023851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Purple.prefab
+  artifactKey: Guid(27358e8da8bf48a45a53bba64a04724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Purple.prefab using Guid(27358e8da8bf48a45a53bba64a04724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4a2ee745e767216cf66e40a2e6d714') in 0.015323 seconds
+  Import took 0.021324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Cabinet_02.prefab
+  artifactKey: Guid(f2f081c540b0d8f4aa94075355020bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Cabinet_02.prefab using Guid(f2f081c540b0d8f4aa94075355020bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea38b6ebfe6e2640a9ea7b9291260578') in 0.016356 seconds
+  Import took 0.023137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Green.prefab
+  artifactKey: Guid(f132b7480e2d1db40a65bbae13a582fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Green.prefab using Guid(f132b7480e2d1db40a65bbae13a582fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede617ae0c8c7ba67ab6658fc86c09bf') in 0.015768 seconds
+  Import took 0.022903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_01_Green.prefab
+  artifactKey: Guid(cc206acf3c629e549a79e89b26695245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_01_Green.prefab using Guid(cc206acf3c629e549a79e89b26695245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e22d4f08e8a762269f5447b97eb164') in 0.017868 seconds
+  Import took 0.024078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_01.prefab
+  artifactKey: Guid(0f950e9a8a9dd2f469026a5b5e908c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_01.prefab using Guid(0f950e9a8a9dd2f469026a5b5e908c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981405524907112bbc170623ea658225') in 0.017964 seconds
+  Import took 0.024805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_02.prefab
+  artifactKey: Guid(393666a36512b694893fb4b95c67c386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_02.prefab using Guid(393666a36512b694893fb4b95c67c386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0995e70f6cbe572e14f6e8fb0b136ab') in 0.015255 seconds
+  Import took 0.021093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Yellow.prefab
+  artifactKey: Guid(16ef0ee9e760e614f9acbcbf95b1489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Yellow.prefab using Guid(16ef0ee9e760e614f9acbcbf95b1489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9bc4a3086031f5e56b2b20e3fc0695') in 0.017382 seconds
+  Import took 0.023765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Yellow.prefab
+  artifactKey: Guid(a950da56b2e37e74a881eb9cd2ce72cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Yellow.prefab using Guid(a950da56b2e37e74a881eb9cd2ce72cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94aa0f76aeb535718fc0a3661160cc4') in 0.015648 seconds
+  Import took 0.022094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_02_Blue.prefab
+  artifactKey: Guid(42f519ff7e5f3d54e94c9d02963441cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_02_Blue.prefab using Guid(42f519ff7e5f3d54e94c9d02963441cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d68d08231ed305c49efc2023d4af04') in 0.018309 seconds
+  Import took 0.024692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Basket_02.prefab
+  artifactKey: Guid(b2eebec45f249ba4e959a5e0cf96b1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Basket_02.prefab using Guid(b2eebec45f249ba4e959a5e0cf96b1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba176b391d0c8f2d8e9c03dc69d76776') in 0.016362 seconds
+  Import took 0.022653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Cabinet_04.prefab
+  artifactKey: Guid(83e0b760e96651c448d56f34e3e1a2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Cabinet_04.prefab using Guid(83e0b760e96651c448d56f34e3e1a2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3303ad713ae02b9384aa51790a1a36c3') in 0.015288 seconds
+  Import took 0.021307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Blue.prefab
+  artifactKey: Guid(bf8363b0ff810d34eb188506e160156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Blue.prefab using Guid(bf8363b0ff810d34eb188506e160156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684eda295ac9e0dd16cfcf5a8cede3bf') in 0.017507 seconds
+  Import took 0.023675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Purple.prefab
+  artifactKey: Guid(0261ec717e40f9641ad55ee135e1a813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Purple.prefab using Guid(0261ec717e40f9641ad55ee135e1a813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daa48e3ce49c2ecc3ff48156a36633a') in 0.016172 seconds
+  Import took 0.022428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Blue.prefab
+  artifactKey: Guid(8d899f85a0dd1cb4983d94fdae0e1939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Blue.prefab using Guid(8d899f85a0dd1cb4983d94fdae0e1939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59eeb0d16fbe91be2c000dbe51e96cd') in 0.015433 seconds
+  Import took 0.021273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/EUR-Pallet.prefab
+  artifactKey: Guid(be11ab6aad4338d4d8ad965540935796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/EUR-Pallet.prefab using Guid(be11ab6aad4338d4d8ad965540935796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549100781a423c62e8668db30485b113') in 0.016909 seconds
+  Import took 0.024460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_01_Red.prefab
+  artifactKey: Guid(90ee87c3535ae7a4bb03b7a82142209c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_01_Red.prefab using Guid(90ee87c3535ae7a4bb03b7a82142209c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efb24874533bcded1b4fcc047d3d38e') in 0.015215 seconds
+  Import took 0.021915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Crate_02.prefab
+  artifactKey: Guid(4af2e69a3f0348b44a982423be88c83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Crate_02.prefab using Guid(4af2e69a3f0348b44a982423be88c83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba5458631bdfb41a0813ecf9b09db25') in 0.018718 seconds
+  Import took 0.024805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_04.prefab
+  artifactKey: Guid(515fff63c7f669d4abf983437c38c0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_04.prefab using Guid(515fff63c7f669d4abf983437c38c0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0dafcc3453a563c7289f43496d162d') in 0.015387 seconds
+  Import took 0.021730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Blue.prefab
+  artifactKey: Guid(640a1b7507862ff4aaabf7e8ed0517fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Blue.prefab using Guid(640a1b7507862ff4aaabf7e8ed0517fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4f1f8dc99d4bda51aecd134527ba8e') in 0.018215 seconds
+  Import took 0.025587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_01_Green.prefab
+  artifactKey: Guid(1de3ed2b342c78d468188c47315371cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_01_Green.prefab using Guid(1de3ed2b342c78d468188c47315371cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c406f0b5c7e92b3130c8145c45c4089') in 0.015961 seconds
+  Import took 0.022316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Purple.prefab
+  artifactKey: Guid(cb67168c0b7373f40bee1fd44669f986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Purple.prefab using Guid(cb67168c0b7373f40bee1fd44669f986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca7f5e47c3f5ec7062c3fe43f8acfb9') in 0.016021 seconds
+  Import took 0.022892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Red.prefab
+  artifactKey: Guid(5dd25028b7dd39f46bf998a8c618ea6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Red.prefab using Guid(5dd25028b7dd39f46bf998a8c618ea6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098bdb2e31d2817245da4331581b21b9') in 0.017592 seconds
+  Import took 0.024018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_01_Purple.prefab
+  artifactKey: Guid(19f4c7cc361201e4586f726d42b19251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_01_Purple.prefab using Guid(19f4c7cc361201e4586f726d42b19251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3634c85830465a9d794bff003f0d23f5') in 0.015666 seconds
+  Import took 0.021806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_01_Yellow.prefab
+  artifactKey: Guid(41f004686382a67468525c4a27865c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_01_Yellow.prefab using Guid(41f004686382a67468525c4a27865c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fb6e59ca043a70bc5c90bb0be804f3') in 0.016363 seconds
+  Import took 0.023144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Basket_01.prefab
+  artifactKey: Guid(e331e7340eca68541a71e53e5f80b86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Basket_01.prefab using Guid(e331e7340eca68541a71e53e5f80b86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ea50c99b468128b609316260808296') in 0.015464 seconds
+  Import took 0.021538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Treasure_Chest.prefab
+  artifactKey: Guid(7508a35910e500841aa2d8ae33c44512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Treasure_Chest.prefab using Guid(7508a35910e500841aa2d8ae33c44512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd02fbc3e8bb33d43782726bf7fff6b') in 0.016457 seconds
+  Import took 0.022863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Purple.prefab
+  artifactKey: Guid(f7506201fa8dd234da8643bc58c1fad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Purple.prefab using Guid(f7506201fa8dd234da8643bc58c1fad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc5fe7fedbc2036ce56da6a04cb52e3') in 0.015005 seconds
+  Import took 0.021360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Red.prefab
+  artifactKey: Guid(c526998ace67d04498684066f2a75d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Red.prefab using Guid(c526998ace67d04498684066f2a75d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f8e729d80c1f528b25842efa022ed7') in 0.017638 seconds
+  Import took 0.023697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Cabinet_03.prefab
+  artifactKey: Guid(d9376b7405d6d344e9079a0f9facffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Cabinet_03.prefab using Guid(d9376b7405d6d344e9079a0f9facffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e67e2eb0080c806ec242a256663c3c') in 0.015317 seconds
+  Import took 0.021170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_01_Purple.prefab
+  artifactKey: Guid(5a9cf2eaaa5dfef4f88b25565c281777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_01_Purple.prefab using Guid(5a9cf2eaaa5dfef4f88b25565c281777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bbb456f056178da206c40e101aaa2e') in 0.016823 seconds
+  Import took 0.023034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Yellow.prefab
+  artifactKey: Guid(d2843574691995046b12777e54a55453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Yellow.prefab using Guid(d2843574691995046b12777e54a55453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e75405771d19238c65ef19fc0a02e86') in 0.015077 seconds
+  Import took 0.021451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_03_Purple.prefab
+  artifactKey: Guid(ae8c8e436c4cd634d9d09709c9537a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_03_Purple.prefab using Guid(ae8c8e436c4cd634d9d09709c9537a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d4f415374e80b39e7ba19360042026') in 0.016315 seconds
+  Import took 0.022505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Red.prefab
+  artifactKey: Guid(35380f0d2bbbc714691343711ab2194d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Red.prefab using Guid(35380f0d2bbbc714691343711ab2194d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c74a139baf1bbf8ff3151f5aedfd5af') in 0.016591 seconds
+  Import took 0.023042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Amp_Rack_02.prefab
+  artifactKey: Guid(164922da0c45e13499cbb9c0d181acf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Amp_Rack_02.prefab using Guid(164922da0c45e13499cbb9c0d181acf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabfa3f9ffe34fece0ce1c7cff1272c7') in 0.017431 seconds
+  Import took 0.023989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Blue.prefab
+  artifactKey: Guid(8795553cb16bf3940892b7adf8761504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Blue.prefab using Guid(8795553cb16bf3940892b7adf8761504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e846413a2cb194d09324e7627b74e9a') in 0.017351 seconds
+  Import took 0.023592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_03_Yellow.prefab
+  artifactKey: Guid(040f36dc3eedcd241a0882592506236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_03_Yellow.prefab using Guid(040f36dc3eedcd241a0882592506236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f1ba3962bf46558313d2773b0b2c71') in 0.033314 seconds
+  Import took 0.040281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_02_Purple.prefab
+  artifactKey: Guid(22362e7eebd4876428d832d6aa3e4ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_02_Purple.prefab using Guid(22362e7eebd4876428d832d6aa3e4ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54e2977b4e6a15e131d74463e38447f') in 0.015931 seconds
+  Import took 0.022193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Red.prefab
+  artifactKey: Guid(6092d1bb5a4a3074a88aa2f310c42bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Red.prefab using Guid(6092d1bb5a4a3074a88aa2f310c42bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28a9b1773d86756f74c84d672bd9bf3') in 0.014639 seconds
+  Import took 0.021413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Storage_Rack_01.prefab
+  artifactKey: Guid(3732512b24557ac43933b8085c822b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Storage_Rack_01.prefab using Guid(3732512b24557ac43933b8085c822b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6702067cc5db6c3f9e6165eeef187792') in 0.017212 seconds
+  Import took 0.024188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Green.prefab
+  artifactKey: Guid(006f68bc96878b04e9657bc5fcecb726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_02_Green.prefab using Guid(006f68bc96878b04e9657bc5fcecb726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0006ba051bcf656ee8f8dc0f260898f') in 0.015520 seconds
+  Import took 0.021576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Yellow.prefab
+  artifactKey: Guid(a366be596fd1924488b647425e458433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Yellow.prefab using Guid(a366be596fd1924488b647425e458433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28142360aef28d15d2bbd907766ff9a') in 0.015176 seconds
+  Import took 0.021486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Trashcan_01.prefab
+  artifactKey: Guid(1d9a68b5f87cd504692964e0e0184301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Trashcan_01.prefab using Guid(1d9a68b5f87cd504692964e0e0184301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd24b89a155a34e39997c17aa5774d0') in 0.014059 seconds
+  Import took 0.019929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Red.prefab
+  artifactKey: Guid(bcaff6085a83be0418ea2028313d78ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Red.prefab using Guid(bcaff6085a83be0418ea2028313d78ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b1dfe1af89e8fc24a21684b2ddd306') in 0.014507 seconds
+  Import took 0.020115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Purple.prefab
+  artifactKey: Guid(6f254a04acf0892448fb03144a1b5cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Purple.prefab using Guid(6f254a04acf0892448fb03144a1b5cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9281f47f34aae1e45ac56fd4c9a4f3d0') in 0.015529 seconds
+  Import took 0.021438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_02_Yellow.prefab
+  artifactKey: Guid(2d1c8780b5053c94e8e1b008b8dc2b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_02_Yellow.prefab using Guid(2d1c8780b5053c94e8e1b008b8dc2b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1d14869b46dac21ba18fbc2890c22e') in 0.015565 seconds
+  Import took 0.021687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_01_Blue.prefab
+  artifactKey: Guid(7d7bf6c92ae13cd478d73a6c6bc5fb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_01_Blue.prefab using Guid(7d7bf6c92ae13cd478d73a6c6bc5fb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e188a5600ecaf99fe356baa5273b76') in 0.014841 seconds
+  Import took 0.020796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Yellow.prefab
+  artifactKey: Guid(ae3ef10b277161d41ab5e71e3cbc9983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_02_Yellow.prefab using Guid(ae3ef10b277161d41ab5e71e3cbc9983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a740adc46b610d64f5809c1a8570cc2') in 0.014615 seconds
+  Import took 0.020287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Green.prefab
+  artifactKey: Guid(0cacfa8ee8c79f6469b49ae380836779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Green.prefab using Guid(0cacfa8ee8c79f6469b49ae380836779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961956f099c8b3d4af851aaa540351a4') in 0.014601 seconds
+  Import took 0.020702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_01_Blue.prefab
+  artifactKey: Guid(01d0598bc959e1744a433317fbb1b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_01_Blue.prefab using Guid(01d0598bc959e1744a433317fbb1b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba74af3a56b0e81e614a3eef52ecf03') in 0.014971 seconds
+  Import took 0.020828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_01_Yellow.prefab
+  artifactKey: Guid(98ebe5a4263656e4cb208604d93a4636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_01_Yellow.prefab using Guid(98ebe5a4263656e4cb208604d93a4636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47331737820ae59560d6908b439c5b9e') in 0.014722 seconds
+  Import took 0.020851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Green.prefab
+  artifactKey: Guid(74c1cb39435213641b90be5965575f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Green.prefab using Guid(74c1cb39435213641b90be5965575f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beee82f1b4226283cdce2318a1983beb') in 0.014845 seconds
+  Import took 0.020682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_01_Green.prefab
+  artifactKey: Guid(f4dfdc4587263744f96196217d1976b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_01_Green.prefab using Guid(f4dfdc4587263744f96196217d1976b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50ee7839f82acc0ac59a9dda124291d') in 0.014526 seconds
+  Import took 0.020061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Green.prefab
+  artifactKey: Guid(ed6ed70884be26a479dd8a819af56329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_01_Green.prefab using Guid(ed6ed70884be26a479dd8a819af56329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616d40f7b482d7d23750fd312eaf554f') in 0.014983 seconds
+  Import took 0.021001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Trashcan_02.prefab
+  artifactKey: Guid(0ffd42e52125bc740b173f3df62f1518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Trashcan_02.prefab using Guid(0ffd42e52125bc740b173f3df62f1518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0388bffb83c33532a8ba783b0a4eced8') in 0.014481 seconds
+  Import took 0.020131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_01_Red.prefab
+  artifactKey: Guid(13e2ed0fe08f41e47b8c83e610b93d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_01_Red.prefab using Guid(13e2ed0fe08f41e47b8c83e610b93d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6567ac7877c0f9ea4389b69c6f371d5') in 0.014231 seconds
+  Import took 0.037041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Purple.prefab
+  artifactKey: Guid(392154adf107eaf47b51a9416a75bcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_03_Purple.prefab using Guid(392154adf107eaf47b51a9416a75bcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2eb1bbb2856928537c728f456b2b43') in 0.014698 seconds
+  Import took 0.020060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Crate_01.prefab
+  artifactKey: Guid(208ca54455d8ac34d8e8c32f367a245d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Crate_01.prefab using Guid(208ca54455d8ac34d8e8c32f367a245d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d3f374692989d06e5640e38f60c3f7') in 0.015190 seconds
+  Import took 0.021088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_01_Purple.prefab
+  artifactKey: Guid(429ebdcdf0ae3ce4c9f3279a683e72ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Giftbox_01_Purple.prefab using Guid(429ebdcdf0ae3ce4c9f3279a683e72ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facd64083ccf620a298c848e01e7d702') in 0.014902 seconds
+  Import took 0.020590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_01_Yellow.prefab
+  artifactKey: Guid(54e51794795d1cd4b85e485eb05d8d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_01_Yellow.prefab using Guid(54e51794795d1cd4b85e485eb05d8d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9fc403973fa4ee15fb70fe6af7676c') in 0.014432 seconds
+  Import took 0.020262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Blue.prefab
+  artifactKey: Guid(18d51fb81a136504a8012d9c99ca47de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Blue.prefab using Guid(18d51fb81a136504a8012d9c99ca47de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00905125f0da3675ad7aaa191359efd1') in 0.014405 seconds
+  Import took 0.020298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Locker.prefab
+  artifactKey: Guid(5ac3edd53f963024ebc36254c7e55dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Locker.prefab using Guid(5ac3edd53f963024ebc36254c7e55dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4b131467e5ec452b7c09d285b60660') in 0.014231 seconds
+  Import took 0.019837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Red.prefab
+  artifactKey: Guid(466f5a12c6bdcc54dac02fd25e22b515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Container_02_Red.prefab using Guid(466f5a12c6bdcc54dac02fd25e22b515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d64a15c2f04797786213c25890ba78') in 0.014111 seconds
+  Import took 0.019880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_02_Red.prefab
+  artifactKey: Guid(e1cac1d627db5b34fa00d9a05bfa4729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Suitcase_02_Red.prefab using Guid(e1cac1d627db5b34fa00d9a05bfa4729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6da2228855ed2dbe565122dd3efde57') in 0.013863 seconds
+  Import took 0.019382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Storage_Rack_02.prefab
+  artifactKey: Guid(34b8a5bfe71cc1844b2d95a6853d2630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Storage_Rack_02.prefab using Guid(34b8a5bfe71cc1844b2d95a6853d2630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc1866b4d776bcb90f8d9709aae68b6') in 0.013515 seconds
+  Import took 0.019190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_01_Purple.prefab
+  artifactKey: Guid(c63b9848197795b43805d085f853e976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Box_01_Purple.prefab using Guid(c63b9848197795b43805d085f853e976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf45652b1ad680d9840b81e907103b7') in 0.014458 seconds
+  Import took 0.020015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_03_Green.prefab
+  artifactKey: Guid(410f168ad9e98f543bd001acc1a546cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Barrel_03_Green.prefab using Guid(410f168ad9e98f543bd001acc1a546cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ee60e7a8d07a1fbe2a610997e2bc0c') in 0.015118 seconds
+  Import took 0.020983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Green.prefab
+  artifactKey: Guid(cddf3d66c16cf1c4eb4d9646cc4d763f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Green.prefab using Guid(cddf3d66c16cf1c4eb4d9646cc4d763f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd8579f96f142e3a82a59be3a27f449') in 0.013718 seconds
+  Import took 0.019718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Yellow.prefab
+  artifactKey: Guid(70cbdc76e81f516488de49d9acbef175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Garbage_Can_Yellow.prefab using Guid(70cbdc76e81f516488de49d9acbef175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde840225857ef957089fd091522b9ca') in 0.014411 seconds
+  Import took 0.020213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Cabinet_01.prefab
+  artifactKey: Guid(e32f6a0e129409b49ab1ada5d1090113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Cabinet_01.prefab using Guid(e32f6a0e129409b49ab1ada5d1090113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2a0176327a9f817940cefcd3a627ea') in 0.014466 seconds
+  Import took 0.020019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Red.prefab
+  artifactKey: Guid(7997690bee8c7cd45a58d92cc3ea5dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Prefabs/Bag_02_Red.prefab using Guid(7997690bee8c7cd45a58d92cc3ea5dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b351bf8052eb4b20df9ac72c3f54341') in 0.013943 seconds
+  Import took 0.019685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.755484 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models
+  artifactKey: Guid(35efe978f199efc499dc7143e532b451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models using Guid(35efe978f199efc499dc7143e532b451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb1d94c1502667d50ee09a96044ff87') in 0.017685 seconds
+  Import took 0.023362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000735 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models
+  artifactKey: Guid(35efe978f199efc499dc7143e532b451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models using Guid(35efe978f199efc499dc7143e532b451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb1d94c1502667d50ee09a96044ff87') in 0.001746 seconds
+  Import took 0.007796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062459 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/AmpRack_01.dae
+  artifactKey: Guid(7b7512508ff7ea348a9e143ad109ed99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/AmpRack_01.dae using Guid(7b7512508ff7ea348a9e143ad109ed99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1e16df9a5315c3f29ac76365701a70') in 0.052278 seconds
+  Import took 0.058019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Bag_02.dae
+  artifactKey: Guid(32b26dc006e7b5d45a08ff5c9c89ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Bag_02.dae using Guid(32b26dc006e7b5d45a08ff5c9c89ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7e4696c9c97dc8af1d5e5177fe3e7c') in 0.020448 seconds
+  Import took 0.025957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Barrel_03.dae
+  artifactKey: Guid(f1a871656407f1843a8eea3435a3ef93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Barrel_03.dae using Guid(f1a871656407f1843a8eea3435a3ef93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ff00bae6856e2260b06d23e8feec53') in 0.017825 seconds
+  Import took 0.023178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Bag_01.dae
+  artifactKey: Guid(c7d246b320fbfff4093aa541d6a54a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Bag_01.dae using Guid(c7d246b320fbfff4093aa541d6a54a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45554fcde46556b45868dde256cf8821') in 0.019431 seconds
+  Import took 0.025406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Trashcan_01.dae
+  artifactKey: Guid(b4e7baaa5268b264d872a89baff081fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Trashcan_01.dae using Guid(b4e7baaa5268b264d872a89baff081fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b295d4716987894897cdfa88d815d98') in 0.018270 seconds
+  Import took 0.023516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/TreasureChest.dae
+  artifactKey: Guid(f0ba207fffea77846a8a979cf75f36e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/TreasureChest.dae using Guid(f0ba207fffea77846a8a979cf75f36e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf9346d1d018032246bd899e07b69f7') in 0.018373 seconds
+  Import took 0.024317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Barrel_02.dae
+  artifactKey: Guid(fd5373b161d0d3e40a2d2ff740e3f795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Barrel_02.dae using Guid(fd5373b161d0d3e40a2d2ff740e3f795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2ad0f41d91516a073f4aec750f87bc') in 0.018634 seconds
+  Import took 0.024622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/StorageRack_01.dae
+  artifactKey: Guid(cc04a9baa919bfe47af3b3cfc2bf1975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/StorageRack_01.dae using Guid(cc04a9baa919bfe47af3b3cfc2bf1975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f098137c2e8accc53878da50029db1') in 0.019414 seconds
+  Import took 0.025606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/StorageRack_02.dae
+  artifactKey: Guid(7ba0b5a941909f2499cfeed8a6d6a591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/StorageRack_02.dae using Guid(7ba0b5a941909f2499cfeed8a6d6a591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a5aa4ff56865fba9aaaf914913467a') in 0.018137 seconds
+  Import took 0.023692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Container_02.dae
+  artifactKey: Guid(58b2a76bf4bc9d343ac061af00f7c612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Container_02.dae using Guid(58b2a76bf4bc9d343ac061af00f7c612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9aafdaff05b885d3c1e1c9d6a16b9a5') in 0.020014 seconds
+  Import took 0.025693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Box_02.dae
+  artifactKey: Guid(7fe7437dc8388e2409a2bdce2c2d1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Box_02.dae using Guid(7fe7437dc8388e2409a2bdce2c2d1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a4313b0980272999d83bbda44db7bb') in 0.017133 seconds
+  Import took 0.023663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Giftbox_01.dae
+  artifactKey: Guid(601dc9ecbb324ed488aeceaf99509326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Giftbox_01.dae using Guid(601dc9ecbb324ed488aeceaf99509326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495c8956e6496722f9693693740080bb') in 0.019898 seconds
+  Import took 0.026309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Locker.dae
+  artifactKey: Guid(2d260eb281c666c428d94133569434d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Locker.dae using Guid(2d260eb281c666c428d94133569434d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06a770291d4425a869971cb622ed240') in 0.019730 seconds
+  Import took 0.026145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/AmpRack_02.dae
+  artifactKey: Guid(d31353d1f3002254bb9c6dccb795b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/AmpRack_02.dae using Guid(d31353d1f3002254bb9c6dccb795b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d7c0f37039a4a3e3e3f8006ff911e0') in 0.017974 seconds
+  Import took 0.023880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Basket_01.dae
+  artifactKey: Guid(2d8033975589a264aa189c915aa5d9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Basket_01.dae using Guid(2d8033975589a264aa189c915aa5d9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1faef1ad9fdc9010e0acec7f9f47186f') in 0.018893 seconds
+  Import took 0.024035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/GarbageCan.dae
+  artifactKey: Guid(f4169bae00484c948a2b9d782b10b298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/GarbageCan.dae using Guid(f4169bae00484c948a2b9d782b10b298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69eda4241a55ac8239ccc4ba8c5caabb') in 0.017587 seconds
+  Import took 0.024074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Giftbox_02.dae
+  artifactKey: Guid(ad0f380d466940048bdd16c9160d04aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Giftbox_02.dae using Guid(ad0f380d466940048bdd16c9160d04aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc227b67c83d3406ce366334e8f0af2') in 0.018745 seconds
+  Import took 0.025728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/ElectricBox_01.dae
+  artifactKey: Guid(183ba50f754853448ac7cdd8ed8d0597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/ElectricBox_01.dae using Guid(183ba50f754853448ac7cdd8ed8d0597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f203620a83e037b1701bff2b51587e') in 0.018193 seconds
+  Import took 0.024031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Cabinet_03.dae
+  artifactKey: Guid(1ed15304222a5714492c11688b4476ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Cabinet_03.dae using Guid(1ed15304222a5714492c11688b4476ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e1c27b6fac7e92036da7e812d2ed9f') in 0.017305 seconds
+  Import took 0.023480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/ElectricBox_02.dae
+  artifactKey: Guid(8b31306a55f55a443a1ae198d8098127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/ElectricBox_02.dae using Guid(8b31306a55f55a443a1ae198d8098127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cd7eefbec6cd08f46327c722b806be') in 0.018742 seconds
+  Import took 0.024296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Crate_01.dae
+  artifactKey: Guid(37af191fce887fc4fa10ccff84e57459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Crate_01.dae using Guid(37af191fce887fc4fa10ccff84e57459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15689e3db90b4005667779e673449a2') in 0.018220 seconds
+  Import took 0.024579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Box_01.dae
+  artifactKey: Guid(92e94bedf87decc4bab0193195407561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Box_01.dae using Guid(92e94bedf87decc4bab0193195407561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a329a6dbce9a9c80268e6da309b5ca') in 0.017991 seconds
+  Import took 0.023607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/EUR-Pallet.dae
+  artifactKey: Guid(23015706c0129d644952c2df64fe52ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/EUR-Pallet.dae using Guid(23015706c0129d644952c2df64fe52ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7403eea5b48f1d753b97553538bb0d') in 0.017694 seconds
+  Import took 0.023709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Basket_02.dae
+  artifactKey: Guid(982b488cfea6b424b84c9ed986a74f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Basket_02.dae using Guid(982b488cfea6b424b84c9ed986a74f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a31c0191958302b1db53f83dbbcc14') in 0.021073 seconds
+  Import took 0.027207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Barrel_04.dae
+  artifactKey: Guid(bd4f279f6db85dd4a912b3cde7c0efd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Barrel_04.dae using Guid(bd4f279f6db85dd4a912b3cde7c0efd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55500274ef2667cfd15a55d2d439526b') in 0.015934 seconds
+  Import took 0.021828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Cabinet_01.dae
+  artifactKey: Guid(ffda0faa00b197942bab9c63c81e74e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Cabinet_01.dae using Guid(ffda0faa00b197942bab9c63c81e74e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0bda463e11745e9a949fad4bcf4f19') in 0.044594 seconds
+  Import took 0.051019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Barrel_01.dae
+  artifactKey: Guid(4570ffb3502664541b65ea4a55f1d760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Barrel_01.dae using Guid(4570ffb3502664541b65ea4a55f1d760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557f1f3408f8eaa812dc1b9cf26aa741') in 0.017977 seconds
+  Import took 0.024290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Cabinet_01.dae
+  artifactKey: Guid(ffda0faa00b197942bab9c63c81e74e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Cabinet_01.dae using Guid(ffda0faa00b197942bab9c63c81e74e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0bda463e11745e9a949fad4bcf4f19') in 0.016871 seconds
+  Import took 0.022733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Container_01.dae
+  artifactKey: Guid(69aae84d594b6f24995327e55246f937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Container_01.dae using Guid(69aae84d594b6f24995327e55246f937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052f36f585d45c4f5090c4f7bb7c4052') in 0.017564 seconds
+  Import took 0.024418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Crate_02.dae
+  artifactKey: Guid(5453a8aedae39ad4a8f64c24f9fc848a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Crate_02.dae using Guid(5453a8aedae39ad4a8f64c24f9fc848a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09d0e0a67ce3895114f876ec68b7c25') in 0.018433 seconds
+  Import took 0.023955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Cabinet_02.dae
+  artifactKey: Guid(a9cbe19c5ceb4e34e89fe52e9d4d8918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Cabinet_02.dae using Guid(a9cbe19c5ceb4e34e89fe52e9d4d8918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156dc7a50d88b30d1fc230a87db21ccb') in 0.017304 seconds
+  Import took 0.023766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Suitcase_02.dae
+  artifactKey: Guid(e63b8c6b9fc029b4aa263a770e49bf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Suitcase_02.dae using Guid(e63b8c6b9fc029b4aa263a770e49bf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3f6d30732f75239c2c0b56e23f0224') in 0.017721 seconds
+  Import took 0.023810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Suitcase_01.dae
+  artifactKey: Guid(0ea575825eb921d459f33d8288f64917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Suitcase_01.dae using Guid(0ea575825eb921d459f33d8288f64917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1cb5d7016430751486757669dba12f') in 0.018768 seconds
+  Import took 0.025119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Giftbox_03.dae
+  artifactKey: Guid(6e1aa28bf5d4c4b4fa59f8a99be843a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Giftbox_03.dae using Guid(6e1aa28bf5d4c4b4fa59f8a99be843a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ead20fd0eeb2cc6792e4cdb3e3ec16') in 0.018542 seconds
+  Import took 0.024442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Cabinet_04.dae
+  artifactKey: Guid(600ba151e48aa1b42afe71cd57559343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Cabinet_04.dae using Guid(600ba151e48aa1b42afe71cd57559343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410af372cf0b784e453d8dba3d108d98') in 0.017908 seconds
+  Import took 0.023529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Trashcan_02.dae
+  artifactKey: Guid(89c2d85839a02134e8c7081446ea0944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Trashcan_02.dae using Guid(89c2d85839a02134e8c7081446ea0944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28664c47f973c0a82c1f0f7f67d8863') in 0.017039 seconds
+  Import took 0.023510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004945 seconds.
+  path: Assets/BrokenVector/LowPolyStoragePack/Models/Trashcan_02.dae
+  artifactKey: Guid(89c2d85839a02134e8c7081446ea0944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Trashcan_02.dae using Guid(89c2d85839a02134e8c7081446ea0944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28664c47f973c0a82c1f0f7f67d8863') in 0.013282 seconds
+  Import took 0.019128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 309.848301 seconds.
+  path: Assets/Presets
+  artifactKey: Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets using Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a75930e511406eb5e108a37b555f6f8') in 0.009568 seconds
+  Import took 0.016216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.357542 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(c389bd5d44972fb40b59febdb0a72d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(c389bd5d44972fb40b59febdb0a72d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ec54a49d9730382c9de9f415d82f6a') in 0.010459 seconds
+  Import took 0.016198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.985572 seconds.
+  path: Assets/PlantsPackage
+  artifactKey: Guid(4a8e332ec8725e943898df18d41bd679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantsPackage using Guid(4a8e332ec8725e943898df18d41bd679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebb9e2c21598eea045e3f96df01ce23') in 0.048635 seconds
+  Import took 0.054243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.817926 seconds.
+  path: Assets/PlantsPackage/Prefabs
+  artifactKey: Guid(579037f6c45713747bdcbd3d85684634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantsPackage/Prefabs using Guid(579037f6c45713747bdcbd3d85684634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a90ee1700bdfadfea966b1cfcba656') in 0.002314 seconds
+  Import took 0.008222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067357 seconds.
+  path: Assets/PlantsPackage/Prefabs/plant1 Variant.prefab
+  artifactKey: Guid(5efbdff695d22544890988ce1a13dd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantsPackage/Prefabs/plant1 Variant.prefab using Guid(5efbdff695d22544890988ce1a13dd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a305696eab2420074b4907bab0bf1915') in 0.021519 seconds
+  Import took 0.027243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/PlantsPackage/Prefabs/plant5 Variant.prefab
+  artifactKey: Guid(aaea4f4bdb1fcce478ff2a13af904c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantsPackage/Prefabs/plant5 Variant.prefab using Guid(aaea4f4bdb1fcce478ff2a13af904c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b1e223286cfe379f66b407969cd0c2') in 0.017745 seconds
+  Import took 0.024336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/PlantsPackage/Prefabs/plant4 Variant.prefab
+  artifactKey: Guid(83159a856da2fe641bdbe4edf84b1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantsPackage/Prefabs/plant4 Variant.prefab using Guid(83159a856da2fe641bdbe4edf84b1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cbb1531e75871b926a8bd7d811e0d4') in 0.015676 seconds
+  Import took 0.022992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/PlantsPackage/Prefabs/plant3 Variant.prefab
+  artifactKey: Guid(0cd6613eb8793674aa4e0ce35ad5c6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantsPackage/Prefabs/plant3 Variant.prefab using Guid(0cd6613eb8793674aa4e0ce35ad5c6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57937ad7b80f5b1c891f9abb2eb89f4') in 0.017416 seconds
+  Import took 0.024066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/PlantsPackage/Prefabs/plant2 Variant.prefab
+  artifactKey: Guid(249cf98a34b9eed48b98adc07185d9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantsPackage/Prefabs/plant2 Variant.prefab using Guid(249cf98a34b9eed48b98adc07185d9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a534b4080548bf5184af600b0fa3e472') in 0.020772 seconds
+  Import took 0.027661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1547.270961 seconds.
+  path: Assets/Materials/beach02a.mat
+  artifactKey: Guid(640f55cabcfbe1640ac1a92566d82080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/beach02a.mat using Guid(640f55cabcfbe1640ac1a92566d82080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea55b1053c1fbbe8f26b0233124ab057') in 0.022950 seconds
+  Import took 0.029073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.333313 seconds.
+  path: Assets/Materials/Invis.mat
+  artifactKey: Guid(563201fd4bdba504fb8023b1e1f0f2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Invis.mat using Guid(563201fd4bdba504fb8023b1e1f0f2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73e1e069b605eaddbdb9750519d8f0d') in 0.013596 seconds
+  Import took 0.026821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 660.367361 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs
+  artifactKey: Guid(90ddfdad9b3bacf4a939a4ef1c1d82e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs using Guid(90ddfdad9b3bacf4a939a4ef1c1d82e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ce1a129a19c74cf7861c884fe64d01') in 0.042346 seconds
+  Import took 0.048785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.709770 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/3x3Corner.prefab
+  artifactKey: Guid(cb79d14aa2afa964b973c6d8cd7c3e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/3x3Corner.prefab using Guid(cb79d14aa2afa964b973c6d8cd7c3e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d185536b2b9afa9d6173b82fe07734') in 0.100167 seconds
+  Import took 0.105949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Baseblock.prefab
+  artifactKey: Guid(cac0a8b97af83a04f8827c346fea951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Baseblock.prefab using Guid(cac0a8b97af83a04f8827c346fea951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dcbe89a70448eef9390058b002d98d') in 0.102612 seconds
+  Import took 0.108152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/BaseboardColonialOScorner.prefab
+  artifactKey: Guid(cddd7093b2c278d4d8943b5929455d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/BaseboardColonialOScorner.prefab using Guid(cddd7093b2c278d4d8943b5929455d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f253747f194d1b10ee92a5eb7e04810') in 0.067019 seconds
+  Import took 0.073335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/BaseboardColonial.prefab
+  artifactKey: Guid(004cc6a640d4fb04a9aa6d6056b8a85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/BaseboardColonial.prefab using Guid(004cc6a640d4fb04a9aa6d6056b8a85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1054c2fac9a71c140fd472403ece8988') in 0.033942 seconds
+  Import took 0.039695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/ConcreteSlab.prefab
+  artifactKey: Guid(1a5fd182d9e440347b95d1b998ec1bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/ConcreteSlab.prefab using Guid(1a5fd182d9e440347b95d1b998ec1bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15140febedb2ad5e231bf9c61831ab4') in 0.410341 seconds
+  Import took 0.416589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Door6PanelSlab.prefab
+  artifactKey: Guid(611c420aab0ee8843ae1a8df0eb4cd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Door6PanelSlab.prefab using Guid(611c420aab0ee8843ae1a8df0eb4cd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b17694657bed57af0dda8cf43e97f32') in 0.415882 seconds
+  Import took 0.422405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveCap.prefab
+  artifactKey: Guid(d952aee7ac2b8f64abc1d6d97e87a4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveCap.prefab using Guid(d952aee7ac2b8f64abc1d6d97e87a4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61dc24fbe9bf21a71de801326302028f') in 0.095265 seconds
+  Import took 0.101140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveLength (2).prefab
+  artifactKey: Guid(8cf6f506d814c9944adaf4112d9e94eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveLength (2).prefab using Guid(8cf6f506d814c9944adaf4112d9e94eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045087ff812547bdf6da27fdfc46218e') in 0.088829 seconds
+  Import took 0.094576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/FloorTransitionStrip.prefab
+  artifactKey: Guid(3b6ced7c1459a0a4f9522257dc9a6514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/FloorTransitionStrip.prefab using Guid(3b6ced7c1459a0a4f9522257dc9a6514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a437dd86426c6ad6b7eefc63a72ae09') in 0.390726 seconds
+  Import took 0.448274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorStairs.prefab
+  artifactKey: Guid(38ad181b22dd60540b6f7ed6a2bac674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorStairs.prefab using Guid(38ad181b22dd60540b6f7ed6a2bac674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84e561d4b7aa2b2775e2271bbb9808b') in 0.222754 seconds
+  Import took 0.289313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Roof1.prefab
+  artifactKey: Guid(f26e5c1467e77a14bbf44fc6b79eb5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Roof1.prefab using Guid(f26e5c1467e77a14bbf44fc6b79eb5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5edc94ad8145b92692e13f966b94de') in 0.380583 seconds
+  Import took 0.387211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/HandrailBracket.prefab
+  artifactKey: Guid(510632f4062158f4296245772efa2781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/HandrailBracket.prefab using Guid(510632f4062158f4296245772efa2781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c6447cc8947655087969f66b63be75') in 0.423027 seconds
+  Import took 0.429142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/JBlockRect1.prefab
+  artifactKey: Guid(76e632aad04aafa4f88a4a6f4e6243cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/JBlockRect1.prefab using Guid(76e632aad04aafa4f88a4a6f4e6243cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8385e3f9df4a60d5b2a57bd9351c833') in 0.301981 seconds
+  Import took 0.307657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/RoofVent1.prefab
+  artifactKey: Guid(96ff0037a4b503f40948fb832adc5ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/RoofVent1.prefab using Guid(96ff0037a4b503f40948fb832adc5ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be44265337ed08e07838bf0e82229360') in 0.059072 seconds
+  Import took 0.065133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorQuarterGlassSlab.prefab
+  artifactKey: Guid(0802041c946de5447a29144908983ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorQuarterGlassSlab.prefab using Guid(0802041c946de5447a29144908983ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0be2cbf014b1a280f6f0eacf12b99a') in 0.197732 seconds
+  Import took 0.204005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/SquarePillar.prefab
+  artifactKey: Guid(28b2ab3d98f891b4a879ffbdea7707af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/SquarePillar.prefab using Guid(28b2ab3d98f891b4a879ffbdea7707af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfb47cbecaa2dd5241ff028f8691e31') in 0.041250 seconds
+  Import took 0.047692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorWallSingleWindow.prefab
+  artifactKey: Guid(d0066f555a799bd41a6853cfb16e746d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorWallSingleWindow.prefab using Guid(d0066f555a799bd41a6853cfb16e746d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad6747bd2870a7f247344c1ca0083f0') in 0.072609 seconds
+  Import took 0.078221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowDoubleCasing1.prefab
+  artifactKey: Guid(b0188e5bf91c9b540b9f1bcc550d3f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowDoubleCasing1.prefab using Guid(b0188e5bf91c9b540b9f1bcc550d3f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7570aad8bb81daf0a814140842830a2') in 0.057794 seconds
+  Import took 0.063139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorJamb.prefab
+  artifactKey: Guid(d23509ba8c6e53a4fb65f7cb0f7ee897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorJamb.prefab using Guid(d23509ba8c6e53a4fb65f7cb0f7ee897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7c3ad14539d03053512b019db65000') in 0.041882 seconds
+  Import took 0.047499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/SquarePillar 1.prefab
+  artifactKey: Guid(829b7ba23226f524fa11e3ca5d571d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/SquarePillar 1.prefab using Guid(829b7ba23226f524fa11e3ca5d571d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c1671dd7a9ed5485c8d0dbdb3e35fc') in 0.383936 seconds
+  Import took 0.390712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowFixedDouble.prefab
+  artifactKey: Guid(20fa9c8b2032a5b40a655192d73225af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowFixedDouble.prefab using Guid(20fa9c8b2032a5b40a655192d73225af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aae5968fcd31ff5bdccfdd5de270fc8') in 0.113588 seconds
+  Import took 0.119258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Handrail.prefab
+  artifactKey: Guid(14e59ad51288a9a4282be236d0512cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Handrail.prefab using Guid(14e59ad51288a9a4282be236d0512cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b156de01dd71a9fd9b6658ef8786e9') in 0.087532 seconds
+  Import took 0.094042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorSweep1.prefab
+  artifactKey: Guid(6cc5ec3cd5674664699934df18f4ee5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorSweep1.prefab using Guid(6cc5ec3cd5674664699934df18f4ee5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c3272a831f4b168b86fa07f654999b') in 0.089832 seconds
+  Import took 0.095885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CoveSiding.prefab
+  artifactKey: Guid(9cd98c257de75524d85e627779fd2b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CoveSiding.prefab using Guid(9cd98c257de75524d85e627779fd2b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27455bb3ece873cc2f9a2969e10e7e6b') in 0.290093 seconds
+  Import took 0.297343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSiding.prefab
+  artifactKey: Guid(1ace3813515042845bc4ec9ca1e51f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSiding.prefab using Guid(1ace3813515042845bc4ec9ca1e51f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de074b4e356a337042d2e34e6c5e1e45') in 0.068124 seconds
+  Import took 0.074036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CoveSidingTriangle1.prefab
+  artifactKey: Guid(a30a3e4682dba414681eb28e4de37c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CoveSidingTriangle1.prefab using Guid(a30a3e4682dba414681eb28e4de37c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b99a7af40cb70795856a9a3150aae7c') in 0.017472 seconds
+  Import took 0.038456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CornerBead.prefab
+  artifactKey: Guid(b4137ce641c4c4c4c8527a12afddf0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CornerBead.prefab using Guid(b4137ce641c4c4c4c8527a12afddf0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169fa8a0b6c421ca3b56309fa71a510f') in 0.046805 seconds
+  Import took 0.052792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/BostonHeader.prefab
+  artifactKey: Guid(a9e7be6eb0bedd9459c64a7b2d1b63d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/BostonHeader.prefab using Guid(a9e7be6eb0bedd9459c64a7b2d1b63d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb1595eae51b7d1d84cb6f1271b4313') in 0.063728 seconds
+  Import took 0.078097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSidingTriangle3.prefab
+  artifactKey: Guid(f0bf5566da98d824d9c5c0eb00319cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSidingTriangle3.prefab using Guid(f0bf5566da98d824d9c5c0eb00319cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4849a45dc853a667b3abdd57e49e0357') in 0.058746 seconds
+  Import took 0.077787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSidingTriangle1.prefab
+  artifactKey: Guid(311e7bbbec70278408b39cea1ed46650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSidingTriangle1.prefab using Guid(311e7bbbec70278408b39cea1ed46650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f45fd8ac707fb3d0ce013c990e3eb6d') in 0.105857 seconds
+  Import took 0.111590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorCasing1.prefab
+  artifactKey: Guid(c2a4b594ffd29fd43b38f1358d47e828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorCasing1.prefab using Guid(c2a4b594ffd29fd43b38f1358d47e828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879c221b390093a42232285299787a3e') in 0.091757 seconds
+  Import took 0.132566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DomeLight.prefab
+  artifactKey: Guid(cf88c4db128f2074b99773958bc42d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DomeLight.prefab using Guid(cf88c4db128f2074b99773958bc42d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0187821756917c5f9936d12bb2b28e') in 0.125329 seconds
+  Import took 0.131350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Deadbolt.prefab
+  artifactKey: Guid(351b91bb82ad38144bd91667ee13368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Deadbolt.prefab using Guid(351b91bb82ad38144bd91667ee13368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f061179aa1aa7448e1bea247316e287') in 0.060499 seconds
+  Import took 0.088967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorDoorandBox.prefab
+  artifactKey: Guid(fa078ae79bb9e8547a3469bb7f0a641e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorDoorandBox.prefab using Guid(fa078ae79bb9e8547a3469bb7f0a641e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c3b27ebc70a8d3ca580f5511dad018') in 0.087208 seconds
+  Import took 0.093341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/ISCorner.prefab
+  artifactKey: Guid(a314b38f55fbd9d4ea10f482866648c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/ISCorner.prefab using Guid(a314b38f55fbd9d4ea10f482866648c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5d295afdfd0a6b124df4b2e50c4ab4') in 0.044118 seconds
+  Import took 0.049678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowCasing1.prefab
+  artifactKey: Guid(ddb4b1c2975a46242af82b6e0b644fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowCasing1.prefab using Guid(ddb4b1c2975a46242af82b6e0b644fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170478fae8a21b9a3b4aedc6ac9b6044') in 0.049257 seconds
+  Import took 0.055580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/AllPlane.prefab
+  artifactKey: Guid(c369b00273a11a446bb442c42e4fb5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/AllPlane.prefab using Guid(c369b00273a11a446bb442c42e4fb5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5fe8327560ce701d28e8f41eebf439') in 0.015093 seconds
+  Import took 0.021583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveDownpipe.prefab
+  artifactKey: Guid(8f667bcd330701941a386bfb15be81d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveDownpipe.prefab using Guid(8f667bcd330701941a386bfb15be81d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edcf5db814e80197c1c84fe8e7b66cf') in 0.039467 seconds
+  Import took 0.045835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/GarageDoorGlass.prefab
+  artifactKey: Guid(a1d3445b5ef2c104fa00c4e78b2c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/GarageDoorGlass.prefab using Guid(a1d3445b5ef2c104fa00c4e78b2c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6e3f4fad3eada3320ade92b2566ba9') in 0.102355 seconds
+  Import took 0.117296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/RoundSidingBlockPillar.prefab
+  artifactKey: Guid(4922e674e7a01db44934840673249d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/RoundSidingBlockPillar.prefab using Guid(4922e674e7a01db44934840673249d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facb4afdeadd1f636ad3324ce2a51973') in 0.111187 seconds
+  Import took 0.117905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowDoubleGrilledSlider.prefab
+  artifactKey: Guid(6716fc24fc690d34d9645e4e83e66717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowDoubleGrilledSlider.prefab using Guid(6716fc24fc690d34d9645e4e83e66717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5776873a558f292c5ef4618a058dd575') in 0.071712 seconds
+  Import took 0.087747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/IndoorTriangle.prefab
+  artifactKey: Guid(e21c66824049d504aa4e73a146f2bf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/IndoorTriangle.prefab using Guid(e21c66824049d504aa4e73a146f2bf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d1920e61bcb0e3f863343ea406bb69') in 0.036687 seconds
+  Import took 0.067362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Dripedge.prefab
+  artifactKey: Guid(e3c6c54b2505abb409dc7d08aeb29c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Dripedge.prefab using Guid(e3c6c54b2505abb409dc7d08aeb29c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0202ce5af8af52831e758e17407c5bd1') in 0.017397 seconds
+  Import took 0.031643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Doorway2LiteandHeader.prefab
+  artifactKey: Guid(b7c5317bac06228478447b273856f43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Doorway2LiteandHeader.prefab using Guid(b7c5317bac06228478447b273856f43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c64a0c72aa089eae2d90d4ed0e0c35') in 0.070497 seconds
+  Import took 0.091220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSidingTriangle2.prefab
+  artifactKey: Guid(48a0744c97b288c4397d01334ccf1c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StraightSidingTriangle2.prefab using Guid(48a0744c97b288c4397d01334ccf1c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a64c0d9ba35b52dee08c59c58d7da5') in 0.057586 seconds
+  Import took 0.063906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/GarageDoorway.prefab
+  artifactKey: Guid(f704066d94e118644b891c9680f420b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/GarageDoorway.prefab using Guid(f704066d94e118644b891c9680f420b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3634d1392d0a629537b4a95f7e70e122') in 0.065114 seconds
+  Import took 0.070275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorknobVictorian.prefab
+  artifactKey: Guid(adf5beccc1c80fe409e4d1931e039e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorknobVictorian.prefab using Guid(adf5beccc1c80fe409e4d1931e039e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a62d1f2793fe7e6e7f2670d5925fc6') in 0.021591 seconds
+  Import took 0.027794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CedarTriangle.prefab
+  artifactKey: Guid(d76622e910fb79945a3375afffa6d274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CedarTriangle.prefab using Guid(d76622e910fb79945a3375afffa6d274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a87d750af69ae828bbdcfc8d72fd5e') in 0.423082 seconds
+  Import took 0.442130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Doorbell.prefab
+  artifactKey: Guid(b16e166cba5fe6b448c44a4db247e8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Doorbell.prefab using Guid(b16e166cba5fe6b448c44a4db247e8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea81f0b9777ae4607c9831a078b92b29') in 0.090834 seconds
+  Import took 0.096785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CasingColonial.prefab
+  artifactKey: Guid(899d497d16a81e34eb745a1f2d94ef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CasingColonial.prefab using Guid(899d497d16a81e34eb745a1f2d94ef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f86963334975edd7913bc538b3d8272') in 0.111941 seconds
+  Import took 0.117917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Dripedgecorner.prefab
+  artifactKey: Guid(2d1f605ddcf18d94b95c24872d2ccbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Dripedgecorner.prefab using Guid(2d1f605ddcf18d94b95c24872d2ccbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32c5c7103147b92de7757aaeb5daf36') in 0.014911 seconds
+  Import took 0.048414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorwayStandard.prefab
+  artifactKey: Guid(cc4e5b940511edc469dbc1c752cd4db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorwayStandard.prefab using Guid(cc4e5b940511edc469dbc1c752cd4db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5023b9c1b85d07df29d8499f28aca3bc') in 0.074925 seconds
+  Import took 0.081403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/SquareStraightPillar.prefab
+  artifactKey: Guid(6785a97c7d7672d448905467db8838aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/SquareStraightPillar.prefab using Guid(6785a97c7d7672d448905467db8838aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb64810009fab31411926ff2af376a2') in 0.155525 seconds
+  Import took 0.161605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorHalfGlassSliderSlab.prefab
+  artifactKey: Guid(f91d3b562ff87e44abc922e66595d6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorHalfGlassSliderSlab.prefab using Guid(f91d3b562ff87e44abc922e66595d6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f82a9cbeb765f65ba31c3c1ec49e78f') in 0.088111 seconds
+  Import took 0.093835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowGrilledSlider.prefab
+  artifactKey: Guid(a5b17e59e720cc248bf072b8373907fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowGrilledSlider.prefab using Guid(a5b17e59e720cc248bf072b8373907fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d3b57f570df21d3a52a85405799025') in 0.129648 seconds
+  Import took 0.135390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowDoubleSlider.prefab
+  artifactKey: Guid(ad89ff43b40605949ac051366240b8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowDoubleSlider.prefab using Guid(ad89ff43b40605949ac051366240b8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af61d4ce9e0455eae0cfbbc4ed75334') in 0.069676 seconds
+  Import took 0.075458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/JBlockSquare1.prefab
+  artifactKey: Guid(7f888ccc7827af241815998a7c1d8bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/JBlockSquare1.prefab using Guid(7f888ccc7827af241815998a7c1d8bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725f33776ed7134f0712af62403f58c2') in 0.084661 seconds
+  Import took 0.091549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CrownMoulding.prefab
+  artifactKey: Guid(3674916a7726a9d49982a7038ce38c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/CrownMoulding.prefab using Guid(3674916a7726a9d49982a7038ce38c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3434b22b71f247b57404d01808edd5') in 0.051787 seconds
+  Import took 0.057530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EntryThumbLatch1.prefab
+  artifactKey: Guid(3e112551083fc5d48baf580648ddb45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EntryThumbLatch1.prefab using Guid(3e112551083fc5d48baf580648ddb45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56a4e49f93fe4a0ffed104dee039cde') in 0.074732 seconds
+  Import took 0.111603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorStairsSingle.prefab
+  artifactKey: Guid(0c51fa29918878746b4633157a83e12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorStairsSingle.prefab using Guid(0c51fa29918878746b4633157a83e12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7d85de1ed78cc524922725e7d96273') in 0.115683 seconds
+  Import took 0.121762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StackedStoneWall.prefab
+  artifactKey: Guid(e49c645f6401b10428117b35d9f22926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/StackedStoneWall.prefab using Guid(e49c645f6401b10428117b35d9f22926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cd1561e0950b7625d84670869c0043') in 0.224840 seconds
+  Import took 0.230698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowFixedSingle.prefab
+  artifactKey: Guid(052c7f1b36eca9041a3649d70f4a8ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowFixedSingle.prefab using Guid(052c7f1b36eca9041a3649d70f4a8ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefd14bee109f01208efe71f7702321e') in 0.067367 seconds
+  Import took 0.109408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/FloorOutdoor.prefab
+  artifactKey: Guid(ab0c49086dad75046ac03fb886f5d22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/FloorOutdoor.prefab using Guid(ab0c49086dad75046ac03fb886f5d22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec14ad62e934646bd16c3f168af2fcca') in 0.079923 seconds
+  Import took 0.086323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveDownpipe45.prefab
+  artifactKey: Guid(47da2000a85029b41a21df4448854478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/EaveDownpipe45.prefab using Guid(47da2000a85029b41a21df4448854478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6994439d5ab63a317a47477c109c26') in 0.116324 seconds
+  Import took 0.151238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DeadboltPlate.prefab
+  artifactKey: Guid(cd9a16dc025854e478710f5f6208cb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DeadboltPlate.prefab using Guid(cd9a16dc025854e478710f5f6208cb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a0141bbbd63b85c4938daf7eb188cb') in 0.065538 seconds
+  Import took 0.071358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowSingleSlider.prefab
+  artifactKey: Guid(cff5b07fa93c434429cd753738e9aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/WindowSingleSlider.prefab using Guid(cff5b07fa93c434429cd753738e9aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831c894aa27815b1604558a94d32a10c') in 0.048824 seconds
+  Import took 0.055074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorknobGeorgian.prefab
+  artifactKey: Guid(2db173d62b6306d4393ec30c9c7b1c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorknobGeorgian.prefab using Guid(2db173d62b6306d4393ec30c9c7b1c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e3c85dbfc2c32ce9311636be39e7b4') in 0.060542 seconds
+  Import took 0.066387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/GarageDoorSquareGrilled.prefab
+  artifactKey: Guid(d9cf36228a0dbdc41b53467d5621adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/GarageDoorSquareGrilled.prefab using Guid(d9cf36228a0dbdc41b53467d5621adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2d47430479c7e64e1dcacd1b9a587e') in 0.095122 seconds
+  Import took 0.100782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorHalfGlassPanelSlab.prefab
+  artifactKey: Guid(796f570d6359fe24f8fb00d7c1f742c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/DoorHalfGlassPanelSlab.prefab using Guid(796f570d6359fe24f8fb00d7c1f742c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e666c82c561ba962f39dbb77cc9569c') in 0.086969 seconds
+  Import took 0.092500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorStairsHalf.prefab
+  artifactKey: Guid(3d679d27e85df4146b570cb7d0c3b4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/InteriorStairsHalf.prefab using Guid(3d679d27e85df4146b570cb7d0c3b4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b7d2143bb9559fe4711c4db646c9e0') in 0.056797 seconds
+  Import took 0.063451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Overhang.prefab
+  artifactKey: Guid(9a7a664181341384bbb99e15a73ec114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/Overhang.prefab using Guid(9a7a664181341384bbb99e15a73ec114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18a76869cba3671d748d98e6b63290b') in 0.073593 seconds
+  Import took 0.080517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/ArchCorner.prefab
+  artifactKey: Guid(fc1ef2f0fa59c3d4dbd8e54b9dda70b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/BuildingPartsPrefabs/ArchCorner.prefab using Guid(fc1ef2f0fa59c3d4dbd8e54b9dda70b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26207448cc655f4bcc7694763b19730d') in 0.221932 seconds
+  Import took 0.265423 seconds .
 

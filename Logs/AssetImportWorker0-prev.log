@@ -15,11 +15,11 @@ E:/unity/Resort/ResortVR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58458
+51233
 Successfully changed project path to: E:/unity/Resort/ResortVR
 E:/unity/Resort/ResortVR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 73.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 91.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path E:/unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,206 +35,580 @@ Initialize mono
 Mono path[0] = 'E:/unity/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'E:/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/unity/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002013 seconds.
+Registered in 0.001588 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 75.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.419 seconds
+- Completed reload, in  1.281 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002685 seconds.
+Registered in 0.006847 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 78.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: E:\unity\Resort\ResortVR\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:E:\unity\2020.3.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.408 seconds
+- Completed reload, in  1.244 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2739 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 128.0 MB.
+Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.7 MB.
+System memory in use after: 145.3 MB.
 
-Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3159.
-Total: 4.627400 ms (FindLiveObjects: 0.362200 ms CreateObjectMapping: 0.141200 ms MarkObjects: 2.665300 ms  DeleteObjects: 1.456400 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/HexDumbell.prefab
-  artifactKey: Guid(facc022907d0943adb45ee8d456e61a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/HexDumbell.prefab using Guid(facc022907d0943adb45ee8d456e61a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2b537ad0ee588c96643bb370393ee1') in 0.346808 seconds
-  Import took 0.367805 seconds .
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3525.
+Total: 4.505400 ms (FindLiveObjects: 0.371900 ms CreateObjectMapping: 0.114200 ms MarkObjects: 2.503000 ms  DeleteObjects: 1.514000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/EZCurlBar.prefab
-  artifactKey: Guid(a9daa8fbc13e1434e9a8464ccc9b61e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/EZCurlBar.prefab using Guid(a9daa8fbc13e1434e9a8464ccc9b61e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869687d6e8aba9c726735f343c787f1f') in 0.025335 seconds
-  Import took 0.048520 seconds .
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(1a55fe37b7fa6654f9e1838aac175abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(1a55fe37b7fa6654f9e1838aac175abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96618f6430a7da086e00163558a1cf4') in 0.059876 seconds
+  Import took 0.065580 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/Flatbench.prefab
-  artifactKey: Guid(b42c9125a6e104dc3b51813ad142cc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/Flatbench.prefab using Guid(b42c9125a6e104dc3b51813ad142cc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d9ac27092a8cd49bd0bded178055e0') in 0.025985 seconds
-  Import took 0.032021 seconds .
+  Time since last request: 0.000362 seconds.
+  path: Assets/StreamingAssets/SteamVR
+  artifactKey: Guid(251d37eaef38d5d4b8cdb5a00ccff479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/SteamVR using Guid(251d37eaef38d5d4b8cdb5a00ccff479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be398766ffecb724015d3dbcf687b90') in 0.013711 seconds
+  Import took 0.022028 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/BodyBuilder Asset Pack/Textures
-  artifactKey: Guid(aa9126fbbe262404f99304234c20c3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Textures using Guid(aa9126fbbe262404f99304234c20c3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d7fef0df7b72abcf20716c6d6c24ff') in 0.021872 seconds
-  Import took 0.027407 seconds .
+  Time since last request: 5.661337 seconds.
+  path: Assets/Exterior_swimming_pool/Water/Materials/SmallWaves.mat
+  artifactKey: Guid(3d0abe6b5b6a7d74483e0938f453edd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_swimming_pool/Water/Materials/SmallWaves.mat using Guid(3d0abe6b5b6a7d74483e0938f453edd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader properties can't be added to this global property sheet. Trying to add _RefractionTex (type 3 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs:395)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs:300)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs:255)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs line 395]
+
+Shader properties can't be added to this global property sheet. Trying to add _RefractionTex_ST (type 1 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs:395)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs:300)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs:255)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs line 395]
+
+Shader properties can't be added to this global property sheet. Trying to add _RefractionTex_TexelSize (type 1 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs:395)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs:300)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs:255)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs line 395]
+
+Shader properties can't be added to this global property sheet. Trying to add _RefractionTex_HDR (type 1 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs:395)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs:300)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]) (at Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs:255)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.universal@10.4.0/Runtime/UniversalRenderPipeline.cs line 395]
+
+ -> (artifact id: '834e948991fb8f33de6c11dce94e3afb') in 0.229803 seconds
+  Import took 0.235457 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/5Plate.prefab
-  artifactKey: Guid(06b21a62184f84f25b219aabb1af212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/5Plate.prefab using Guid(06b21a62184f84f25b219aabb1af212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88620f617f3a999e5a99720975d11b4') in 0.025694 seconds
-  Import took 0.047299 seconds .
+  Time since last request: 204.125788 seconds.
+  path: Assets/Exterior_swimming_pool/Water/Textures/New Material.mat
+  artifactKey: Guid(ac99d2d57240675438cc53e0200d362e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_swimming_pool/Water/Textures/New Material.mat using Guid(ac99d2d57240675438cc53e0200d362e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a595d73577bf839fd5901aefa1d5ebb') in 0.028772 seconds
+  Import took 0.034869 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006221 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: E:\unity\Resort\ResortVR\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:E:\unity\2020.3.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.174 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3021 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.6 MB.
+System memory in use after: 145.2 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 3609.
+Total: 4.433300 ms (FindLiveObjects: 0.358800 ms CreateObjectMapping: 0.081500 ms MarkObjects: 2.631000 ms  DeleteObjects: 1.360500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/LegPress.prefab
-  artifactKey: Guid(5cca210f39865425fb5212c6538cad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/LegPress.prefab using Guid(5cca210f39865425fb5212c6538cad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de613983fc8952e9a694b94fe4160030') in 0.026026 seconds
-  Import took 0.039061 seconds .
+  Time since last request: 434.479414 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Unable to parse file Assets/Readme.asset: [Parser Failure at line 29: Expect ':' between key and value within mapping]
+
+ -> (artifact id: '7a5133be1797bb222c4b53c213bd7841') in 0.021793 seconds
+  Import took 0.048057 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/25CrossPlate.prefab
-  artifactKey: Guid(066221979a9b44065a4770b2b3c7f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/25CrossPlate.prefab using Guid(066221979a9b44065a4770b2b3c7f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defb7853bca76fe3c436e21ad0f03047') in 0.020042 seconds
-  Import took 0.025660 seconds .
+  Time since last request: 5.151219 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122d432f97ef7bde4b25f78a12b1b863') in 0.037631 seconds
+  Import took 0.043196 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/SquatRack.prefab
-  artifactKey: Guid(9d723950635424d4582a271cb5aa01cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/SquatRack.prefab using Guid(9d723950635424d4582a271cb5aa01cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c100ed97fa095e46c9d584032e9dfba4') in 0.021052 seconds
-  Import took 0.030899 seconds .
+  Time since last request: 2.652723 seconds.
+  path: Assets/IgniteCoders
+  artifactKey: Guid(a4f2661136eab8e46aae5fc39f75e7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders using Guid(a4f2661136eab8e46aae5fc39f75e7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e694489a8e06f4fbcc8f618bfa7a5a') in 0.008678 seconds
+  Import took 0.046740 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/StraightBar.prefab
-  artifactKey: Guid(5987e3a9b775641e4a058e13df4e7b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/StraightBar.prefab using Guid(5987e3a9b775641e4a058e13df4e7b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52115f41661ad11174f9d9dbfbe98ff') in 0.022738 seconds
-  Import took 0.030217 seconds .
+  Time since last request: 0.749223 seconds.
+  path: Assets/HQ Laptop
+  artifactKey: Guid(1507dd816a77d304e82afd5eaa4870cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop using Guid(1507dd816a77d304e82afd5eaa4870cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2535478d8782cf85215e046b183fc742') in 0.007959 seconds
+  Import took 0.013435 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/RubberDumbell.prefab
-  artifactKey: Guid(ffde1e5de261c426bbfee2ff352f7205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/RubberDumbell.prefab using Guid(ffde1e5de261c426bbfee2ff352f7205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fa3527abfba367ec0944cea4705aa3') in 0.018273 seconds
-  Import took 0.024261 seconds .
+  Time since last request: 1.496442 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader
+  artifactKey: Guid(7fe4fa3180b77e049bd27f5d66a65a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader using Guid(7fe4fa3180b77e049bd27f5d66a65a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14eb8a4359d1a6c01fcaa19172cf75e4') in 0.007797 seconds
+  Import took 0.022175 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/PreacherCurlBench.prefab
-  artifactKey: Guid(169756ebbcdb3473fb4bf7b79fa1f14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/PreacherCurlBench.prefab using Guid(169756ebbcdb3473fb4bf7b79fa1f14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c632a5bfb62d4474d26be3b0e1993e8e') in 0.023941 seconds
-  Import took 0.041501 seconds .
+  Time since last request: 0.993482 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Prefabs
+  artifactKey: Guid(659a758b0bea88342a8f7d3812ab9415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Prefabs using Guid(659a758b0bea88342a8f7d3812ab9415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b912fbf7c0357b925e8a45aa0ced3c8') in 0.017680 seconds
+  Import took 0.038505 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/BenchID.prefab
-  artifactKey: Guid(80a5ea9764443443395b466a9a9acfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/BenchID.prefab using Guid(80a5ea9764443443395b466a9a9acfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62eeaf7bd0079c74fcf3978a6244a4cb') in 0.021996 seconds
-  Import took 0.028954 seconds .
+  Time since last request: 0.002439 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Prefabs/WaterBlock_50m.prefab
+  artifactKey: Guid(7097ba7ba649e1f41bba232312bdcbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Prefabs/WaterBlock_50m.prefab using Guid(7097ba7ba649e1f41bba232312bdcbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ba12d4fbfb5fa7f321740b6182843e') in 0.902644 seconds
+  Import took 0.920305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Prefabs/WaterReflectionCamera.prefab
+  artifactKey: Guid(838c0bef810bfe94d8e33947c3cba7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Prefabs/WaterReflectionCamera.prefab using Guid(838c0bef810bfe94d8e33947c3cba7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb869a2943f86c3e4ba1441fca013eb') in 0.013196 seconds
+  Import took 0.018396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.493631 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Resources
+  artifactKey: Guid(dc77ad855be57214eb39fd06212f2ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Resources using Guid(dc77ad855be57214eb39fd06212f2ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1ec93377804b0e95984456b2a758c0') in 0.006717 seconds
+  Import took 0.012103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041260 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_01.mat
+  artifactKey: Guid(141d9d6ca43b6c843965491604c6deff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_01.mat using Guid(141d9d6ca43b6c843965491604c6deff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62efe4fe5c732ed1150fd49fb43f47f') in 0.030253 seconds
+  Import took 0.035975 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000231 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/35CrossPlate.prefab
-  artifactKey: Guid(e58d57693bd4d4e878439fe19720c026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/35CrossPlate.prefab using Guid(e58d57693bd4d4e878439fe19720c026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c224423a2f9eab10a10b6b66e3cfbb3c') in 0.025156 seconds
-  Import took 0.032107 seconds .
+  path: Assets/IgniteCoders/Simple Water Shader/Resources/WaterSurface_single.tif
+  artifactKey: Guid(11154d936b05e66498f68fa178c5cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Resources/WaterSurface_single.tif using Guid(11154d936b05e66498f68fa178c5cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dca03593db99d41c2865cea02ec6e5e') in 0.031555 seconds
+  Import took 0.046729 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs
-  artifactKey: Guid(2c1407986dfd746e4b8047697e564281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs using Guid(2c1407986dfd746e4b8047697e564281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e5682531404cea7dbce0fa50e8ae16') in 0.021835 seconds
-  Import took 0.044403 seconds .
+  Time since last request: 0.000260 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Resources/WaterReflection.renderTexture
+  artifactKey: Guid(4ae8ae7350b67b44785d874c413a2e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Resources/WaterReflection.renderTexture using Guid(4ae8ae7350b67b44785d874c413a2e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810f033742c9056dec126696f0ad0f60') in 0.047125 seconds
+  Import took 0.078740 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/Dumbell Rack.prefab
-  artifactKey: Guid(cdb1ce3be6b324212979318b4419b923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/Dumbell Rack.prefab using Guid(cdb1ce3be6b324212979318b4419b923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b549eae8ebda3fda4ff7e59a1255892') in 0.021700 seconds
-  Import took 0.034055 seconds .
+  Time since last request: 0.000230 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Resources/WaterSurface_atlas.tif
+  artifactKey: Guid(2ed3d41b7c655bf4daa77f71b994f6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Resources/WaterSurface_atlas.tif using Guid(2ed3d41b7c655bf4daa77f71b994f6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1309cdd50571c9cbd469821670e5bf2') in 0.013765 seconds
+  Import took 0.050835 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/45CrossPlate.prefab
-  artifactKey: Guid(6ceb720bb64e446f6b1f73a0a2d9ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/45CrossPlate.prefab using Guid(6ceb720bb64e446f6b1f73a0a2d9ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6c3c3ffc73591564b94928e4d216ac') in 0.021533 seconds
-  Import took 0.027695 seconds .
+  Time since last request: 0.000205 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_02.mat
+  artifactKey: Guid(8759ec410a6774b4ea13ae32dc2b8d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_02.mat using Guid(8759ec410a6774b4ea13ae32dc2b8d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffdd22e52eb739da2aa44cc57ec9700') in 0.019496 seconds
+  Import took 0.025018 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/PlateRack.prefab
-  artifactKey: Guid(3d5919e0d63634fa9a0b8e9c2e8065dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/PlateRack.prefab using Guid(3d5919e0d63634fa9a0b8e9c2e8065dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed78076c7e0124abfe5d7bf15ef3d5a') in 0.017039 seconds
-  Import took 0.033054 seconds .
+  Time since last request: 0.000218 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_03.mat
+  artifactKey: Guid(19ac4fcfcf42b4344a6c7d97a5cd61fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_03.mat using Guid(19ac4fcfcf42b4344a6c7d97a5cd61fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cb162759202d7ca9ce9e4463bc7179') in 0.017509 seconds
+  Import took 0.053758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Resources/WaterBlock_50m.mesh
+  artifactKey: Guid(3da23cdf512599b42881988944f3918c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Resources/WaterBlock_50m.mesh using Guid(3da23cdf512599b42881988944f3918c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbe5993671e7c822823b5d6ab72ea0f') in 0.107660 seconds
+  Import took 0.113185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 196.675939 seconds.
+  path: Assets/Materials/beach01a.mat
+  artifactKey: Guid(1db027db10c3a1b40bd8bc5d896fed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/beach01a.mat using Guid(1db027db10c3a1b40bd8bc5d896fed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8a3dfd8aa9a81ef729bdd24ad6a1e2') in 0.016954 seconds
+  Import took 0.027982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 542.460993 seconds.
+  path: Assets/Materials/beach01a.mat
+  artifactKey: Guid(1db027db10c3a1b40bd8bc5d896fed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/beach01a.mat using Guid(1db027db10c3a1b40bd8bc5d896fed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702306c1002b5fa5a41927eb13bf8fe2') in 0.020445 seconds
+  Import took 0.046572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.852378 seconds.
+  path: Assets/Beach Essentials/Prefabs
+  artifactKey: Guid(6380b439243ab4a92b41fd1291244b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs using Guid(6380b439243ab4a92b41fd1291244b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3bc1d979531cc90ee9a42e56dac1a5') in 0.001907 seconds
+  Import took 0.007399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042809 seconds.
+  path: Assets/Beach Essentials/Prefabs/Beachball.prefab
+  artifactKey: Guid(a53dc7c14dd524d869aff830ceb6addb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Beachball.prefab using Guid(a53dc7c14dd524d869aff830ceb6addb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2471c47e5eed2b29a1d1d86987d46ef7') in 0.016363 seconds
+  Import took 0.021867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Beach Essentials/Prefabs/Surfboard1.prefab
+  artifactKey: Guid(744db4b24e25c46dfafd852803eaf62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Surfboard1.prefab using Guid(744db4b24e25c46dfafd852803eaf62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f2611b0949ed9de53020c1f288f9c6') in 0.017108 seconds
+  Import took 0.022390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Beach Essentials/Prefabs/BeachChair1.prefab
+  artifactKey: Guid(83bd97a15777345c98f6ffef269ce9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/BeachChair1.prefab using Guid(83bd97a15777345c98f6ffef269ce9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923333ae1ba865ebd70a8ebfedb65ee4') in 0.018372 seconds
+  Import took 0.024858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Beach Essentials/Prefabs/VolleyballNet.prefab
+  artifactKey: Guid(60f00f9b917704995bf06e2fd3c2c543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/VolleyballNet.prefab using Guid(60f00f9b917704995bf06e2fd3c2c543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d28c24c24b01772da96a462c984aa4') in 0.018473 seconds
+  Import took 0.046329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Beach Essentials/Prefabs/BeachUmbrella.prefab
+  artifactKey: Guid(c42244228094d412d95b66c1116ba56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/BeachUmbrella.prefab using Guid(c42244228094d412d95b66c1116ba56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3e4f1789f66265c92ae277669933b1') in 0.017238 seconds
+  Import took 0.022881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Beach Essentials/Prefabs/Volleyball.prefab
+  artifactKey: Guid(60f4bdfb49a7840a2989bbd741e814f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Volleyball.prefab using Guid(60f4bdfb49a7840a2989bbd741e814f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08b7573a448fde4badcd5c21b741792') in 0.017600 seconds
+  Import took 0.023512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Beach Essentials/Prefabs/Surfboard3.prefab
+  artifactKey: Guid(d34ed44f711214307a87aa9850b9232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Surfboard3.prefab using Guid(d34ed44f711214307a87aa9850b9232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3114c54b07e35e75cd566e1731ead98b') in 0.015506 seconds
+  Import took 0.028646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Beach Essentials/Prefabs/Beachball2.prefab
+  artifactKey: Guid(7e2ebd9ccc7214b6abf033ced06d3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Beachball2.prefab using Guid(7e2ebd9ccc7214b6abf033ced06d3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4b07f787d2cb7d6a471612d1c482d5') in 0.014221 seconds
+  Import took 0.019932 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000215 seconds.
-  path: Assets/BodyBuilder Asset Pack/Prefabs/10Plate.prefab
-  artifactKey: Guid(bd6d5806150974871b83d13e4d2cd8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BodyBuilder Asset Pack/Prefabs/10Plate.prefab using Guid(bd6d5806150974871b83d13e4d2cd8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f252eafcefecdeeea7dd280085146c5b') in 0.023517 seconds
-  Import took 0.030919 seconds .
+  path: Assets/Beach Essentials/Prefabs/Beachchair(Foldable) 2.prefab
+  artifactKey: Guid(5ec45ad715b4d4c23938acde15e70e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Beachchair(Foldable) 2.prefab using Guid(5ec45ad715b4d4c23938acde15e70e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f2ac8762387adf39f1d4247b14272a') in 0.020120 seconds
+  Import took 0.025331 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10215.133057 seconds.
-  path: Assets/Materials/Cool Grey.mat
-  artifactKey: Guid(1540d6377e14c5647a5cd4cc023ef7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cool Grey.mat using Guid(1540d6377e14c5647a5cd4cc023ef7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af9109139b0be506e2c1b8e35026fa1') in 0.171805 seconds
-  Import took 0.276989 seconds .
+  Time since last request: 0.000223 seconds.
+  path: Assets/Beach Essentials/Prefabs/Beachchair(Foldable).prefab
+  artifactKey: Guid(1dc3fac990a434af8bb491ba17503d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Beachchair(Foldable).prefab using Guid(1dc3fac990a434af8bb491ba17503d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361077dc8c3c78c0b84739e0068c089f') in 0.016544 seconds
+  Import took 0.023276 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16998.410832 seconds.
-  path: Assets/Materials/Cool Grey.mat
-  artifactKey: Guid(1540d6377e14c5647a5cd4cc023ef7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cool Grey.mat using Guid(1540d6377e14c5647a5cd4cc023ef7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f572034738eff6711621eb1041dc8b') in 0.062546 seconds
-  Import took 0.107080 seconds .
+  Time since last request: 0.000271 seconds.
+  path: Assets/Beach Essentials/Prefabs/BeachChair2.prefab
+  artifactKey: Guid(49df472e0268c44ef9d290c6a0e189e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/BeachChair2.prefab using Guid(49df472e0268c44ef9d290c6a0e189e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faaaadf4aad817e5273dd23d27f0a6e4') in 0.015912 seconds
+  Import took 0.021903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Beach Essentials/Prefabs/LifeguardTower.prefab
+  artifactKey: Guid(b549e7d129a5f4bbc82005ad204d050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/LifeguardTower.prefab using Guid(b549e7d129a5f4bbc82005ad204d050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe996d130bd98f531daaf00e5784ffa3') in 0.036801 seconds
+  Import took 0.042860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Beach Essentials/Prefabs/Old Volleyball.prefab
+  artifactKey: Guid(2b90d0c38e99d41acaa02470d023066d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Old Volleyball.prefab using Guid(2b90d0c38e99d41acaa02470d023066d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09defda58fe60f7e4c06866dbcea5b19') in 0.018375 seconds
+  Import took 0.023740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Beach Essentials/Prefabs/Surfboard2.prefab
+  artifactKey: Guid(c259968d1caaa4635b7c13f3f94e251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Surfboard2.prefab using Guid(c259968d1caaa4635b7c13f3f94e251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c363aa2a7bafd963eabb7c2810706d9') in 0.014893 seconds
+  Import took 0.021320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Beach Essentials/Prefabs/BeachBucket.prefab
+  artifactKey: Guid(166ca20d8679849429412da6990e81a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/BeachBucket.prefab using Guid(166ca20d8679849429412da6990e81a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3970d1878154452bd2fb0ae0dab545f') in 0.014112 seconds
+  Import took 0.030666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Beach Essentials/Prefabs/PicnicTable.prefab
+  artifactKey: Guid(6b33a32ee238540e196deb1d94f361dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/PicnicTable.prefab using Guid(6b33a32ee238540e196deb1d94f361dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e74e80a1fab9cfb7abe7b2998d74b8') in 0.021485 seconds
+  Import took 0.027132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Beach Essentials/Prefabs/Lifesaver.prefab
+  artifactKey: Guid(7b047d6be874343ed89b39217d759622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Lifesaver.prefab using Guid(7b047d6be874343ed89b39217d759622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c651a9ed48f8ab2f3d23d1e0d4ab12f') in 0.016416 seconds
+  Import took 0.022613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Beach Essentials/Prefabs/Umbrella.prefab
+  artifactKey: Guid(409b9a3db4c4d43e1b35d4ca8302f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Umbrella.prefab using Guid(409b9a3db4c4d43e1b35d4ca8302f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ff31f4b4ebdb7930bbb3b5c610736d') in 0.015829 seconds
+  Import took 0.022061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 708.161168 seconds.
+  path: Assets/Exterior_swimming_pool
+  artifactKey: Guid(db46a1a30452e8b439d49017f7920762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_swimming_pool using Guid(db46a1a30452e8b439d49017f7920762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091b760a2d1a0316a79272b87fa0a501') in 0.007231 seconds
+  Import took 0.013206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.368807 seconds.
+  path: Assets/Catartsys
+  artifactKey: Guid(a381442fa19d1f742be04742a0262e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Catartsys using Guid(a381442fa19d1f742be04742a0262e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcce7e7074774e4699c0240dfc75e25d') in 0.007042 seconds
+  Import took 0.012383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.038768 seconds.
+  path: Assets/BodyBuilder Asset Pack
+  artifactKey: Guid(87201ed14743e54449c48b35234ccd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BodyBuilder Asset Pack using Guid(87201ed14743e54449c48b35234ccd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd588a47f4f63a68eed763aa28552c8') in 0.006995 seconds
+  Import took 0.012530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.884069 seconds.
+  path: Assets/Beach Essentials
+  artifactKey: Guid(d15777467983d5a4d9c01c4842d682bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials using Guid(d15777467983d5a4d9c01c4842d682bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd3e998c63ba34f125eac103291a5a0') in 0.007448 seconds
+  Import took 0.012792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.445353 seconds.
+  path: Assets/BarProps
+  artifactKey: Guid(6752ac7c3d1865f428af86096cbead7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BarProps using Guid(6752ac7c3d1865f428af86096cbead7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd433492977ba13484c01104b05c7a3e2') in 0.006421 seconds
+  Import took 0.011565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.308218 seconds.
+  path: Assets/Assets_BathroomProps
+  artifactKey: Guid(8031ba253c706bd43b3b6f15d29751ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_BathroomProps using Guid(8031ba253c706bd43b3b6f15d29751ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735b156fd89740e4d75f590bae136e98') in 0.007129 seconds
+  Import took 0.012264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.732030 seconds.
+  path: Assets/Suburban Structure Kit
+  artifactKey: Guid(fcd755bb78b0c3e409aad14184c30075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit using Guid(fcd755bb78b0c3e409aad14184c30075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd89499b0c328c586d68843ee7911811') in 0.006618 seconds
+  Import took 0.011937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.618947 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs
+  artifactKey: Guid(58ec48e09caf11f40927cb4dfad7561b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs using Guid(58ec48e09caf11f40927cb4dfad7561b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3f544d027ccc8ca7faf5c968bd49d2') in 0.002397 seconds
+  Import took 0.008293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.236266 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/FullPrefabs
+  artifactKey: Guid(a11e86571eb079848a2f447ad2b378fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/FullPrefabs using Guid(a11e86571eb079848a2f447ad2b378fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b120f8ff522d3a34b951da85b6c073') in 0.006796 seconds
+  Import took 0.012004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044357 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/FullPrefabs/GarageDetatchedVer1.prefab
+  artifactKey: Guid(20dd690069cf4c647ac68f85a75d3694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/FullPrefabs/GarageDetatchedVer1.prefab using Guid(20dd690069cf4c647ac68f85a75d3694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17df726327f0d4a50e31054c12bcd382') in 0.077624 seconds
+  Import took 0.087518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer1.prefab
+  artifactKey: Guid(d18575db84348924490b1cafa3686243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer1.prefab using Guid(d18575db84348924490b1cafa3686243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea44a540d3f469c711c21c94f165ab0a') in 0.225601 seconds
+  Import took 0.247073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer3B.prefab
+  artifactKey: Guid(e57a10b1c9016b742a3084e52be77b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer3B.prefab using Guid(e57a10b1c9016b742a3084e52be77b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f66f4f3f0a7933526727d7505b182d') in 0.160969 seconds
+  Import took 0.177028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer2.prefab
+  artifactKey: Guid(fe44196c5e4e1444db4df3069ca7c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer2.prefab using Guid(fe44196c5e4e1444db4df3069ca7c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b446dc7281e8dc68bdd1d09e101832') in 0.222689 seconds
+  Import took 0.245558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer3A.prefab
+  artifactKey: Guid(914761b82962bf0468c45833469bb498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suburban Structure Kit/Prefabs/FullPrefabs/SuburbanHouseVer3A.prefab using Guid(914761b82962bf0468c45833469bb498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7050e7e552e575052d098d2f0bd424bd') in 0.163238 seconds
+  Import took 0.180838 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
